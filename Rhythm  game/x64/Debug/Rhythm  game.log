@@ -1,0 +1,14 @@
+﻿  AnimatedObject.cpp
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\H_Tools0.h(98,2): warning C4091: 'static ': ignored on left of 'Xml' when no variable is declared
+  BaseStates.cpp
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\H_Tools0.h(98,2): warning C4091: 'static ': ignored on left of 'Xml' when no variable is declared
+  Conductor.cpp
+  main.cpp
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\H_Tools0.h(98,2): warning C4091: 'static ': ignored on left of 'Xml' when no variable is declared
+  mainMenuClass.cpp
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\H_Tools0.h(98,2): warning C4091: 'static ': ignored on left of 'Xml' when no variable is declared
+  Song_Stage.cpp
+  Generating Code...
+  Rhythm  game.vcxproj -> C:\Users\WB\Documents\GitHub\Rhythm-game\x64\Debug\Rhythm  game.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
