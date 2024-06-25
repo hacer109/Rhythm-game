@@ -1,1 +1,26 @@
-﻿  Rhythm  game.vcxproj -> C:\Users\ASUS\Documents\GitHub\Rhythm-game\x64\Debug\Rhythm  game.exe
+﻿  AnimatedObject.cpp
+C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\H_Tools0.h(98,2): warning C4091: 'static ': ignored on left of 'Xml' when no variable is declared
+C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(40,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(53,42): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(54,42): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(55,46): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(56,47): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(71,11): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(72,11): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(73,47): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(74,45): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  main.cpp
+C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\H_Tools0.h(98,2): warning C4091: 'static ': ignored on left of 'Xml' when no variable is declared
+C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(40,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(53,42): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(54,42): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(55,46): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(56,47): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(71,11): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(72,11): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(73,47): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(74,45): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+  Rhythm  game.vcxproj -> C:\Users\ASUS\Documents\GitHub\Rhythm-game\x64\Debug\Rhythm  game.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

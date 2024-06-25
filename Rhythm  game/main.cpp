@@ -78,8 +78,8 @@ int main()
     
     
     
-    AnimatedObject obj = AnimatedObject(GetScreenWidth() / 2, GetScreenHeight() / 2, "assets/images/lose", false);
-    
+    AnimatedObject obj = AnimatedObject(GetScreenWidth() / 2, GetScreenHeight() / 2, "assets/images/lose", 24,false);
+   
     
 
 
@@ -94,7 +94,7 @@ int main()
         BeginDrawing();
        
        // scenes[gameStateNum]->Update();
-        obj.Draw();
+        obj.UpdateAnimation();
        
         EndDrawing();
     }
