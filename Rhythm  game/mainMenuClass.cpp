@@ -32,6 +32,28 @@ void AnimatedButton::UpdateButton(int activeNum,int currentNum) {
 void mainMenuClass::mainMenuUpdate() {
 
 	
-	PlayWeek.UpdateButton(0,0);//change if new buttons are added
+	if (IsKeyDown(KEY_D)) num = 0;
+	else if (IsKeyDown(KEY_F)) num = 1;
+	else if (IsKeyDown(KEY_J)) num = 2;
+	else if (IsKeyDown(KEY_K)) num = 3;
+
+
+	switch (num) {
+
+	case 0:
+		obj0->UpdateAnimation();
+		break;
+	case 1: obj1->UpdateAnimation();
+		break;
+	case 2: obj2->UpdateAnimation();
+		break;
+	case 3: obj3->UpdateAnimation();
+		break;
+	}
+
+	
+
+
+	//PlayWeek.UpdateButton(0,0);//change if new buttons are added
 
 }

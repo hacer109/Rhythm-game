@@ -6,7 +6,7 @@
 #include <vector>
 #include "H_Tools0.h"
 #include <ctime>
-
+#include <unordered_map>
 using namespace std;
 
 class AnimatedObject
@@ -29,18 +29,21 @@ class AnimatedObject
 	Vector2 origin = { 0,0 };
 	Rectangle frameRec;
 	 float timePerFrame;
-	
+	 string specificAnimationName;
 	 float elapsedTime = 0.0f;
 	 bool isPaused = false;
+	// unordered_map<string,int> indexsOfSameAnim;
+	 vector<Xml::SubTexture> subsOfSameAnim;
+	 vector<Xml::SubTexture> renderTextures;
 
 	 //TO DO:
 	 //
 	 //		Add a way to separate multiple animations inside an xml file,or have it accept the raw values(sorted)
 	 //		extracted from the xml externally,string? do it in H_tools01.h
-	 // 
+	 //DONE!!! (left for record)
 
 
-
+	 
 
 
 	 AnimatedObject()
@@ -51,7 +54,38 @@ class AnimatedObject
 	{
 		PrepareFiles();
 
+
+		renderTextures = subTexture;
 	}
+
+
+	AnimatedObject(int x, int y, float Size, string fileNamePath, int fps,string specificAnimationName, bool Looping) : posX(x), sizeSprite(Size), posY(y), path(fileNamePath), maxFps(fps), specificAnimationName(specificAnimationName), looping(Looping)
+	{
+		PrepareFiles();
+		cout << endl;
+		cout << endl;
+		cout << endl;
+		cout << endl;
+		for (int i = 0; i < totalFrames;i++) {
+
+			if (subTexture[i].name.find(specificAnimationName) != string::npos){
+				
+				subsOfSameAnim.push_back(subTexture[i]);
+				cout << i << " ,";
+			}
+
+
+		}
+		renderTextures = subsOfSameAnim;
+		totalFrames = renderTextures.size();
+		cout << endl;
+		cout << renderTextures.size();
+		cout << endl;
+		cout << endl;
+		cout << endl;
+		
+	}
+
 
 	void PrepareFiles() {
 		
@@ -72,10 +106,10 @@ class AnimatedObject
 
 
 		
-		rectangle->x = subTexture[currentFrame].x;
-		rectangle->y = subTexture[currentFrame].y;
-		rectangle->width = subTexture[currentFrame].frameWidth;
-		rectangle->height = subTexture[currentFrame].frameHeight;
+		rectangle->x = renderTextures[currentFrame].x;
+		rectangle->y = renderTextures[currentFrame].y;
+		rectangle->width = renderTextures[currentFrame].frameWidth;
+		rectangle->height = renderTextures[currentFrame].frameHeight;
 
 	}
 	
@@ -143,10 +177,10 @@ class AnimatedObject
 
 		ReturnBounds(&frameRec);
 
-		pos.x = posX - (subTexture[currentFrame].frameX);
-		pos.y = posY - (subTexture[currentFrame].frameY);
-		pos.height = subTexture[currentFrame].height*sizeSprite;
-		pos.width = subTexture[currentFrame].width*sizeSprite;
+		pos.x = posX - (renderTextures[currentFrame].frameX);
+		pos.y = posY - (renderTextures[currentFrame].frameY);
+		pos.height = renderTextures[currentFrame].height*sizeSprite;
+		pos.width = renderTextures[currentFrame].width*sizeSprite;
 
 		DrawTexturePro(atlas, frameRec,pos ,origin , 0, WHITE);
 

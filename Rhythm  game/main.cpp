@@ -13,6 +13,25 @@
 
 
 
+
+//  TO DO:
+//      
+//      Fix mempry management, a lot of stuff on the heap needs to be deleted and remade.
+//      memory:     966 mb
+//      Need to make it optimized, like less than 1000 mb per scene at the very least.
+//      Also...fuck forgot what to write...oh ye uhhhhhh unload stuff that isnt needed 
+//      its 1:39 am my brain is a mush...
+//      also replace some stuff with smart pointers
+// 
+//      pointers - heap
+//      no pointers - stack 
+// 
+//      prioritize stack whenever possible
+//      Notes from the 2 Cherno videos i watched ^^^
+//      probably best to make everything work then optimize dunno...
+//
+
+
 void GameState(curState &gameState, int& gameStateNum) {
 
     switch (gameState)
