@@ -8,16 +8,7 @@
 #include "H_Tools0.h"
 #include <vector>
 #include "AnimatedObject.h"
-enum curState {
-
-    MainMenu,
-    SelectMenu,
-    FreePlay,
-    WeekSelect,
-    DebugMenu,
-    Song
-
-};
+#include "curState_.cpp"
 
 
 
@@ -53,13 +44,13 @@ void GameState(curState &gameState, int& gameStateNum) {
     
 }
 
- curState gameState;
+ curState gameState = curState(MainMenu);
 int main()  
 {
     
     
     
-    gameState = MainMenu;
+    
     int gameStateNum = 0;
     InitWindow(1366, 768, "Rhythm mania");
    // std::unordered_map<int, BaseStates> scenes;
@@ -89,12 +80,13 @@ int main()
        
        
         
-        ClearBackground(BLACK);
+        ClearBackground(ORANGE);
 
         BeginDrawing();
        
-       // scenes[gameStateNum]->Update();
-        obj.UpdateAnimation();
+        scenes[gameStateNum]->Update(gameState);
+      //  obj.UpdateAnimation();
+        
        
         EndDrawing();
     }

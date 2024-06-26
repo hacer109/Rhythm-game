@@ -31,8 +31,22 @@ class AnimatedObject
 	 float timePerFrame;
 	
 	 float elapsedTime = 0.0f;
+	 bool isPaused = false;
+
+	 //TO DO:
+	 //
+	 //		Add a way to separate multiple animations inside an xml file,or have it accept the raw values(sorted)
+	 //		extracted from the xml externally,string? do it in H_tools01.h
+	 // 
 
 
+
+
+
+	 AnimatedObject()
+	 {
+
+	 }
 	AnimatedObject(int x,int y,float Size,string fileNamePath,int fps,bool Looping) : posX(x),sizeSprite(Size), posY(y), path(fileNamePath), maxFps(fps), looping(Looping)
 	{
 		PrepareFiles();
@@ -60,8 +74,8 @@ class AnimatedObject
 		
 		rectangle->x = subTexture[currentFrame].x;
 		rectangle->y = subTexture[currentFrame].y;
-		rectangle->width = subTexture[currentFrame].width;
-		rectangle->height = subTexture[currentFrame].height;
+		rectangle->width = subTexture[currentFrame].frameWidth;
+		rectangle->height = subTexture[currentFrame].frameHeight;
 
 	}
 	
@@ -116,7 +130,9 @@ class AnimatedObject
 
 	   elapsedTime += GetFrameTime();
 	   if (elapsedTime >= 1.0f / maxFps) {
-		   currentFrame++;
+
+		   
+		   if(isPaused == false)currentFrame++;
 		   elapsedTime = 0;
 
 		   if (currentFrame >= totalFrames) {
@@ -125,29 +141,28 @@ class AnimatedObject
 
 	   }
 
-	   
-
-
-
-	    
 		ReturnBounds(&frameRec);
-		pos.x = posX;
-		pos.y = posY;
+
+		pos.x = posX - (subTexture[currentFrame].frameX);
+		pos.y = posY - (subTexture[currentFrame].frameY);
 		pos.height = subTexture[currentFrame].height*sizeSprite;
 		pos.width = subTexture[currentFrame].width*sizeSprite;
 
-		
-		
-
-
-
-
-		
 		DrawTexturePro(atlas, frameRec,pos ,origin , 0, WHITE);
 
 	}
 
-	
+   void PauseAnimation() {
+
+	   isPaused = true;
+	}
+   void PlayAnimation() {
+	   isPaused = false;
+   }
+   void StopAnimation() {
+	   isPaused = false;
+	   currentFrame = 0;
+   }
 	
 };
 

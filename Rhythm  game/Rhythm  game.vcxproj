@@ -130,6 +130,7 @@
     <ClCompile Include="AnimatedObject.cpp" />
     <ClCompile Include="BaseStates.cpp" />
     <ClCompile Include="Conductor.cpp" />
+    <ClCompile Include="curState_.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mainMenuClass.cpp" />
     <ClCompile Include="Song_Stage.cpp" />
