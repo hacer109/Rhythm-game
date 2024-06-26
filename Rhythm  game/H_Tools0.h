@@ -6,8 +6,10 @@
 #include <tinyxml2.h>
 #include <raylib.h>
 #include <vector>
+#include<chrono>
 using namespace tinyxml2;
 using namespace std;
+using namespace std::chrono;
 static class Xml {
 public:
   
@@ -94,6 +96,14 @@ public:
 
       return subTextures;
   }
+
+};
+
+
+static class customTime {
+public:
+
+
 
 };
     

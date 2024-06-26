@@ -70,7 +70,7 @@ int main()
     
 
 
-    SetTargetFPS(120);
+    SetTargetFPS(168);
 
     InitAudioDevice();
 
@@ -78,7 +78,7 @@ int main()
     
     
     
-    AnimatedObject obj = AnimatedObject(GetScreenWidth() / 2, GetScreenHeight() / 2, "assets/images/lose", 24,false);
+    AnimatedObject obj = AnimatedObject(GetScreenWidth() / 2, GetScreenHeight() / 2, 0.5,"assets/images/gfDanceTitle", 24,false);
    
     
 

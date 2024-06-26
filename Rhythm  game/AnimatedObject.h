@@ -5,6 +5,8 @@
 #include <raylib.h>
 #include <vector>
 #include "H_Tools0.h"
+#include <ctime>
+
 using namespace std;
 
 class AnimatedObject
@@ -15,7 +17,7 @@ class AnimatedObject
 	int maxFps;
 	
 	int frameCounter;
-	
+	float sizeSprite;
 	int totalFrames = 0;
 	bool looping;
 	vector<Xml::SubTexture> subTexture;
@@ -26,7 +28,12 @@ class AnimatedObject
 	Rectangle pos;
 	Vector2 origin = { 0,0 };
 	Rectangle frameRec;
-	AnimatedObject(int x,int y,string fileNamePath,int fps,bool Looping) : posX(x), posY(y),path(fileNamePath),maxFps(fps), looping(Looping)
+	 float timePerFrame;
+	
+	 float elapsedTime = 0.0f;
+
+
+	AnimatedObject(int x,int y,float Size,string fileNamePath,int fps,bool Looping) : posX(x),sizeSprite(Size), posY(y), path(fileNamePath), maxFps(fps), looping(Looping)
 	{
 		PrepareFiles();
 
@@ -38,6 +45,7 @@ class AnimatedObject
 		image = LoadImage((path+png).c_str());
 		atlas = LoadTextureFromImage(image);
 		totalFrames = subTexture.size();
+		timePerFrame = 1.0f / maxFps;
 		UnloadImage(image);
 	}
 
@@ -58,20 +66,66 @@ class AnimatedObject
 	}
 	
 
+	int framesToAdvance;
+   void UpdateAnimation() {
+	    
 
-	void UpdateAnimation() {
+	  /* frameCounter++;
 
-		
-		
-		
+	   if (frameCounter >= (GetFPS() / maxFps)) {
+
+		   frameCounter = 0;
+		   currentFrame++;
+
+		   if (currentFrame == totalFrames - 1) currentFrame = 0;
+	   }*/
+	  
+	  elapsedTime += GetFrameTime();
+
+	 /*  while (elapsedTime >= timePerFrame) {
+		   elapsedTime -= timePerFrame;
+		   currentFrame++;
+
+		   if (currentFrame >= totalFrames) {
+			   currentFrame = 0;
+		   }
+	   }*/
+
+	   if (elapsedTime >= timePerFrame) {
+		   elapsedTime = 0.0f;
+		   currentFrame++;
+		   if (currentFrame >= totalFrames) {
+			   currentFrame = 0;
+		   }
+	   }
 		
 
 
+	 /*  elapsedTime += GetFrameTime();
+
+	   framesToAdvance = static_cast<int>(elapsedTime / timePerFrame);
+	   elapsedTime -= framesToAdvance * timePerFrame;
+
+	   currentFrame += framesToAdvance;
+
+	   if (currentFrame >= totalFrames) {
+		   currentFrame = currentFrame % totalFrames;
+	   }*/
+
+	    
+
+
+
+	   
+
+
+
+	    
 		ReturnBounds(&frameRec);
 		pos.x = posX;
 		pos.y = posY;
-		pos.height = subTexture[currentFrame].height;
-		pos.width = subTexture[currentFrame].width;
+		pos.height = subTexture[currentFrame].height*sizeSprite;
+		pos.width = subTexture[currentFrame].width*sizeSprite;
 
 		
 		
