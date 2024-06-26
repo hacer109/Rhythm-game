@@ -80,7 +80,7 @@ class AnimatedObject
 		   if (currentFrame == totalFrames - 1) currentFrame = 0;
 	   }*/
 	  
-	  elapsedTime += GetFrameTime();
+	 // elapsedTime += GetFrameTime();
 
 	 /*  while (elapsedTime >= timePerFrame) {
 		   elapsedTime -= timePerFrame;
@@ -91,13 +91,13 @@ class AnimatedObject
 		   }
 	   }*/
 
-	   if (elapsedTime >= timePerFrame) {
+	 /*  if (elapsedTime >= timePerFrame) {
 		   elapsedTime = 0.0f;
 		   currentFrame++;
 		   if (currentFrame >= totalFrames) {
 			   currentFrame = 0;
 		   }
-	   }
+	   }*/
 		
 
 
@@ -114,7 +114,16 @@ class AnimatedObject
 
 	    
 
+	   elapsedTime += GetFrameTime();
+	   if (elapsedTime >= 1.0f / maxFps) {
+		   currentFrame++;
+		   elapsedTime = 0;
 
+		   if (currentFrame >= totalFrames) {
+			   currentFrame = 0;
+		   }
+
+	   }
 
 	   
 
