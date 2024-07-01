@@ -86,6 +86,15 @@ class AnimatedObject
 		
 	}
 
+	void checkValues() {
+
+		for (int i = 0; i < subTexture.size();i++) {
+
+			if (subTexture[i].frameHeight == 0) { subTexture[i].frameHeight = subTexture[i].height; }
+			if (subTexture[i].frameWidth == 0) { subTexture[i].frameWidth = subTexture[i].width; }
+		}
+
+	}
 
 	void PrepareFiles() {
 		
@@ -94,6 +103,7 @@ class AnimatedObject
 		atlas = LoadTextureFromImage(image);
 		totalFrames = subTexture.size();
 		timePerFrame = 1.0f / maxFps;
+		checkValues();
 		UnloadImage(image);
 	}
 

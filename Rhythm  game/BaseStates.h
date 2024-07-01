@@ -10,7 +10,7 @@ class BaseStates
 {
 
 public:
-	virtual void Update(curState &gameState);
+	virtual void Update(int* gameState);
 	
 };
 
@@ -18,7 +18,8 @@ class Main_Menu : public BaseStates
 {
 public:
 	mainMenuClass mainMenu;
-	void virtual Update(curState& gameState);
+	void virtual Update(int* gameState);
+	
 };
 
 class Debug_menu : public BaseStates
@@ -26,7 +27,7 @@ class Debug_menu : public BaseStates
 public:
 
 	Charter_menu charterMenu;
-	void virtual Update(curState& gameState);
+	void virtual Update(int* gameState);
 };
 
 class SongPlay : public BaseStates
@@ -34,12 +35,12 @@ class SongPlay : public BaseStates
 public:
 	Song_Stage song_stage;
 
-	void virtual Update(curState& gameState);
+	void virtual Update(int* gameState);
 };
 
 
 class Select_Menu : public BaseStates
 {
 public:
-	void virtual Update(curState& gameState);
+	void virtual Update(int* gameState);
 };

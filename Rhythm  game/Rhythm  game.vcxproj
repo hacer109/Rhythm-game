@@ -133,6 +133,7 @@
     <ClCompile Include="curState_.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mainMenuClass.cpp" />
+    <ClCompile Include="MenuButton.cpp" />
     <ClCompile Include="Song_Stage.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -142,6 +143,7 @@
     <ClInclude Include="Conductor.h" />
     <ClInclude Include="H_Tools0.h" />
     <ClInclude Include="mainMenuClass.h" />
+    <ClInclude Include="MenuButton.h" />
     <ClInclude Include="Song_Stage.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

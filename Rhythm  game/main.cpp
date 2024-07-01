@@ -32,9 +32,9 @@
 //
 
 
-void GameState(curState &gameState, int& gameStateNum) {
+void GameState(curState *gameState, int& gameStateNum) {
 
-    switch (gameState)
+    switch (*gameState)
     {
          case MainMenu:
              gameStateNum = 0;
@@ -44,7 +44,7 @@ void GameState(curState &gameState, int& gameStateNum) {
            break;
 
           case FreePlay:
-              gameStateNum = 2;
+              gameStateNum = 5;
             break;
 
          case WeekSelect:
@@ -56,13 +56,17 @@ void GameState(curState &gameState, int& gameStateNum) {
            break;
 
           case Song:
-              gameStateNum = 5;
+              gameStateNum = 2;
               break;
     }
 
+
+
+    
+
     
 }
-
+int gameStateNum = 0;
  curState gameState = curState(MainMenu);
 int main()  
 {
@@ -70,13 +74,14 @@ int main()
     
     
     
-    int gameStateNum = 0;
+    
+    int* numPtr = &gameStateNum;
     InitWindow(1366, 768, "Rhythm mania");
    // std::unordered_map<int, BaseStates> scenes;
 
     BaseStates* scenes[]{ new Main_Menu(),new Select_Menu(),new SongPlay(),new Debug_menu()};
 
-    GameState(gameState, gameStateNum);
+    GameState(&gameState, gameStateNum);
     
 
 
@@ -95,21 +100,22 @@ int main()
 
     while (!WindowShouldClose()) {
 
-        GameState(gameState, gameStateNum);
-       
+        
        
         
         ClearBackground(ORANGE);
 
         BeginDrawing();
        
-        scenes[gameStateNum]->Update(gameState);
-      //  obj.UpdateAnimation();
+        scenes[gameStateNum]->Update(numPtr);
+       // obj.UpdateAnimation();
         
        
         EndDrawing();
     }
 
+
+    
     CloseWindow();
 }
 

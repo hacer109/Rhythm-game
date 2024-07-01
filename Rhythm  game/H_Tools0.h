@@ -45,15 +45,15 @@ public:
   
 
   struct SubTexture {
-      string name;
+      string name = "";
       int x;
       int y;
       int width;
       int height;
-      int frameX;
-      int frameY;
-      int frameWidth;
-      int frameHeight;
+      int frameX=0;
+      int frameY=0;
+      int frameWidth=0;
+      int frameHeight=0;
   };
 
   // Function to load and parse the XML file and extract SubTexture elements
@@ -89,6 +89,8 @@ public:
           elem->QueryIntAttribute("frameY", &st.frameY);
           elem->QueryIntAttribute("frameWidth", &st.frameWidth);
           elem->QueryIntAttribute("frameHeight", &st.frameHeight);
+
+          
 
           // Add the SubTexture to the vector
           subTextures.push_back(st);
