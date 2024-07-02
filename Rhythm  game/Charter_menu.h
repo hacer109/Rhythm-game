@@ -2,9 +2,9 @@
 #include <iostream>
 #include <raylib.h>
 #include "Grid.h"
-#include "Conductor.h"
-#include <vector>
 
+#include <vector>
+#include "Conductor.h"
 
 using namespace std;
 class Charter_menu
@@ -13,13 +13,15 @@ public:
 
 
 
-
+    Conductor conductor = Conductor("assets/sound/Philly_Nice.mp3", 175);
+    std::vector<Grid> sections;
     
-    
-    std::vector<Grid> AssignSections(std::vector<Grid> sections,Conductor conductor) {
 
 
-        int numOfSections = 70; //conductor.songLengthInSeconds / (conductor.stepLengthInSeconds * 16);
+    std::vector<Grid> AssignSections(std::vector<Grid> sections) {
+        
+        
+        int numOfSections = roundf(conductor.songLengthInSeconds / (conductor.stepLengthInSeconds * 16));
 
 
         for (int i = 0; i < numOfSections;i++) {
@@ -33,28 +35,20 @@ public:
     
     Charter_menu()
     {
+        sections = AssignSections(sections);
     }
 
 	bool startHasRun = false;
    
    
-   
-
-    
   
-
-	void CharterStart() {
-
-
-
-        
-	}
 
     void CharterUpdate() {
         
-     
+        if (IsKeyReleased(KEY_SPACE)) conductor.PlaySong();
+        conductor.ConductorUpdate();
        
-
+        sections[0].AssignGrid();
         
     }
 

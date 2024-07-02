@@ -3,55 +3,83 @@
 #include <iostream>
 class Conductor
 {
-public:
+	public:
 
-	float songBpm = 175;
-	float secPerBeat;
-	float songLengthInSeconds;
-	float songPosition;
-	float songPositionInBeats;
-	float dspSongTime; // seconds passed since the song started
-	float firstBeatOffset;
-	float stepLengthInSeconds;
-	int timeSignatureNumerator = 4;
-	Music mainSong;
+			
+			float songBpm = 178;
+			
+			float secPerBeat;
+			
+			float songLengthInSeconds;
+			
+			float songPosition;
+			
+			float songPositionInBeats;
+			
+			float dspSongTime;
+			
+			float firstBeatOffset;
+			
+			float stepLengthInSeconds;
 
-	Conductor()
-	{
-		PlayMusicStream(mainSong);
-		AssignValues(mainSong);
-	}
-	void AssignValues(Music& mainSong) {
-
-		secPerBeat = 60 / songBpm;
-		dspSongTime = float(GetMusicTimePlayed(mainSong));
-		songLengthInSeconds = GetMusicTimeLength(mainSong);
-		stepLengthInSeconds = (60 / songBpm) * (1 / timeSignatureNumerator);
-
-	}
-
-	Conductor(Music &mainSong): mainSong(mainSong)
-	{
-		
-		PlayMusicStream(mainSong);
-		AssignValues(mainSong);
-	}
-
-	
-
-	void ConductorUpdate() {
+			float timeSignatureNumerator = 4;
 
 
-		UpdateMusicStream(mainSong);
-		AssignValues(mainSong);
-		songPosition = float(GetMusicTimePlayed(mainSong) - dspSongTime - firstBeatOffset);
-		songPositionInBeats = songPosition / secPerBeat;
-		
+			std::string songPath;
 
-		std::cout << "SongPos: " << songPosition << " BPM: " << songBpm << " PosInBeats: " << songPositionInBeats << " SecPerBeat:" << secPerBeat << " step Length: " << stepLengthInSeconds << std::endl;
-	
-	}
+			Music song;
 
-	
+			
+
+			Conductor(std::string songPath,float BPM):
+				
+				songBpm(BPM),
+				songPath(songPath)
+			{
+				
+				song = LoadMusicStream((songPath).c_str());
+				AssignValues();
+			}
+
+			void SetBPM(float newBpm) {
+
+				songBpm = newBpm;
+			}
+
+			void AssignValues() {
+
+				secPerBeat = 60 / songBpm;
+				dspSongTime = GetMusicTimePlayed(song);
+				songLengthInSeconds = GetMusicTimeLength(song);
+				stepLengthInSeconds = (60.0 / songBpm) * (1.0 / timeSignatureNumerator);
+
+			}
+
+			void PlaySong() {
+				PlayMusicStream(song);
+			}
+
+			void ConductorUpdate() {
+
+			//	stepLengthInSeconds = (60 / songBpm) * (1 / timeSignatureNumerator);
+
+				
+				
+				UpdateMusicStream(song);
+				PlayMusicStream(song);
+				songPosition = GetMusicTimePlayed(song);//-dspSongTime - firstBeatOffset;
+				songPositionInBeats = songPosition / secPerBeat;
+
+				std::cout << "SongPos: " << songPosition << " BPM: " << songBpm << " PosInBeats: " << songPositionInBeats << " SecPerBeat:" << secPerBeat << " step Length: " << stepLengthInSeconds << std::endl;
+
+
+			}
+
+
+			~Conductor()
+			{
+				UnloadMusicStream(song);
+			}
+
 };
 

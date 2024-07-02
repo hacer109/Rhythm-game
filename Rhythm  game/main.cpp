@@ -4,14 +4,14 @@
 
 #include <iostream>
 #include <raylib.h>
-#include "Conductor.h"
+
 #include <unordered_map>
 #include "BaseStates.h"
 #include "H_Tools0.h"
 #include <vector>
 #include "AnimatedObject.h"
 #include "curState_.cpp"
-
+#include "Conductor.h"
 
 
 
@@ -90,10 +90,10 @@ int main()
     SetTargetFPS(168);
 
     InitAudioDevice();
-    Music song = LoadMusicStream("assets/sound/Philly_Nice.mp3");
-    Conductor cond = Conductor(song);
     
+   
     
+   
     
     //AnimatedObject obj = AnimatedObject(GetScreenWidth() / 2, GetScreenHeight() / 2, 0.5,"assets/images/gfDanceTitle", 24,false);
    
@@ -103,12 +103,12 @@ int main()
     while (!WindowShouldClose()) {
 
         
-       
+        
         
         ClearBackground(ORANGE);
 
         BeginDrawing();
-        cond.ConductorUpdate();
+       
         scenes[gameStateNum]->Update(numPtr);
        // obj.UpdateAnimation();
         
@@ -116,8 +116,8 @@ int main()
         EndDrawing();
     }
 
-
-    
+   
+    CloseAudioDevice();
     CloseWindow();
 }
 
