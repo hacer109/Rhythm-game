@@ -72,14 +72,16 @@ int gameStateNum = 0;
  curState gameState = curState(MainMenu);
 int main()  
 {
-    
-    
+    InitWindow(1366, 768, "Rhythm mania");
+    SetTargetFPS(168);
+    InitAudioDevice();
     
     
     
     int* numPtr = &gameStateNum;
-    InitWindow(1366, 768, "Rhythm mania");
-   // std::unordered_map<int, BaseStates> scenes;
+    
+    
+  
 
     BaseStates* scenes[]{ new Main_Menu(),new Select_Menu(),new SongPlay(),new Debug_menu()};
 
@@ -87,9 +89,7 @@ int main()
     
 
 
-    SetTargetFPS(168);
-
-    InitAudioDevice();
+    
     
    
     
@@ -108,7 +108,7 @@ int main()
         ClearBackground(ORANGE);
 
         BeginDrawing();
-       
+        
         scenes[gameStateNum]->Update(numPtr);
        // obj.UpdateAnimation();
         

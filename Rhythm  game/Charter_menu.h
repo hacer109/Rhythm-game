@@ -45,8 +45,11 @@ public:
 
     void CharterUpdate() {
         
-        if (IsKeyReleased(KEY_SPACE)) conductor.PlaySong();
         conductor.ConductorUpdate();
+
+        
+        
+       
        
         sections[0].AssignGrid();
         

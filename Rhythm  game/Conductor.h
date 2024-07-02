@@ -61,24 +61,28 @@ class Conductor
 
 			void ConductorUpdate() {
 
+
+				UpdateMusicStream(song);
+
+
 			//	stepLengthInSeconds = (60 / songBpm) * (1 / timeSignatureNumerator);
 
 				
+				if (IsKeyReleased(KEY_SPACE))PlaySong();
 				
-				UpdateMusicStream(song);
-				PlayMusicStream(song);
+				
 				songPosition = GetMusicTimePlayed(song);//-dspSongTime - firstBeatOffset;
 				songPositionInBeats = songPosition / secPerBeat;
+				
+				std::cout << "SongPos: " << songPosition << " BPM: " << songBpm << " PosInBeats: " << songPositionInBeats << " SecPerBeat:" << secPerBeat << " step Length: " << stepLengthInSeconds <<  " song length" <<  GetMusicTimeLength(song) << std::endl;
 
-				std::cout << "SongPos: " << songPosition << " BPM: " << songBpm << " PosInBeats: " << songPositionInBeats << " SecPerBeat:" << secPerBeat << " step Length: " << stepLengthInSeconds << std::endl;
-
-
+				
 			}
 
 
 			~Conductor()
 			{
-				UnloadMusicStream(song);
+			//	UnloadMusicStream(song);
 			}
 
 };

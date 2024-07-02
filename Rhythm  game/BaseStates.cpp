@@ -26,5 +26,6 @@ void SongPlay::Update(int* gameState) {
 void Debug_menu::Update(int* gameState) {
 
 	charterMenu.CharterUpdate();
+	
 	//std::cout << "Debug Menu" << std::endl;
 }
