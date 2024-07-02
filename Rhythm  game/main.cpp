@@ -1,5 +1,7 @@
 
 
+
+
 #include <iostream>
 #include <raylib.h>
 #include "Conductor.h"
@@ -88,12 +90,12 @@ int main()
     SetTargetFPS(168);
 
     InitAudioDevice();
-
+    Music song = LoadMusicStream("assets/sound/Philly_Nice.mp3");
+    Conductor cond = Conductor(song);
     
     
     
-    
-    AnimatedObject obj = AnimatedObject(GetScreenWidth() / 2, GetScreenHeight() / 2, 0.5,"assets/images/gfDanceTitle", 24,false);
+    //AnimatedObject obj = AnimatedObject(GetScreenWidth() / 2, GetScreenHeight() / 2, 0.5,"assets/images/gfDanceTitle", 24,false);
    
     
 
@@ -106,7 +108,7 @@ int main()
         ClearBackground(ORANGE);
 
         BeginDrawing();
-       
+        cond.ConductorUpdate();
         scenes[gameStateNum]->Update(numPtr);
        // obj.UpdateAnimation();
         

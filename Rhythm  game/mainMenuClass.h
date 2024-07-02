@@ -27,7 +27,9 @@ public:
 		1,
 		"freeplay basic0",
 		"freeplay white0",
-		currentState);
+		currentState,
+		3
+	);
 	
 
 

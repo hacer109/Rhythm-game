@@ -10,7 +10,7 @@
 class MenuButton
 {
 public:
-	int* gameState4 = nullptr;
+	int* gameState4;
 	AnimatedObject animSelected;
 	AnimatedObject animIdle;
 	int buttonX, buttonY,animFps;
@@ -21,8 +21,9 @@ public:
 	int buttonId;
 	std::string selectedAnim;
 	std::string idleAnim;
+	int transitionSceneId;
 
-	MenuButton(int buttonX, int buttonY, float size, std::string animPath, int fps, bool loopAnim, int buttonId, string selectedAnim, string idleAnim, int* state) :
+	MenuButton(int buttonX, int buttonY, float size, std::string animPath, int fps, bool loopAnim, int buttonId, string selectedAnim, string idleAnim, int* state, int SceneTransitionId) :
 		selectedAnim(selectedAnim),
 		idleAnim(idleAnim),
 		buttonX(buttonX),
@@ -32,9 +33,13 @@ public:
 		animFps(fps),
 		looping(loopAnim),
 		buttonId(buttonId),
-		gameState4(state)
+		gameState4(state),
+		transitionSceneId(SceneTransitionId)
+
+
 	{
-		//gameState4 = state;
+		
+		//*gameState4 = *state;
 		animSelected = AnimatedObject(buttonX, buttonY, size, animPath, animFps, selectedAnim, looping);
 		animIdle = AnimatedObject(buttonX, buttonY, size , animPath, animFps, idleAnim, looping);
 	}
@@ -49,7 +54,7 @@ public:
 
 	void PressedEnter() {
 
-		if (IsKeyReleased(KEY_ENTER)) { TransitionScene(2);cout << "Pressed enter" << endl;
+		if (IsKeyReleased(KEY_ENTER)) { TransitionScene(transitionSceneId);cout << "Pressed enter" << endl;
 		}
 		
 	}

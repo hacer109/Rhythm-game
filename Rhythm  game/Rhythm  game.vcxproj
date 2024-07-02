@@ -131,6 +131,8 @@
     <ClCompile Include="BaseStates.cpp" />
     <ClCompile Include="Conductor.cpp" />
     <ClCompile Include="curState_.cpp" />
+    <ClCompile Include="Grid.cpp" />
+    <ClCompile Include="GridSquare.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mainMenuClass.cpp" />
     <ClCompile Include="MenuButton.cpp" />
@@ -141,6 +143,8 @@
     <ClInclude Include="BaseStates.h" />
     <ClInclude Include="Charter_menu.h" />
     <ClInclude Include="Conductor.h" />
+    <ClInclude Include="Grid.h" />
+    <ClInclude Include="GridSquare.h" />
     <ClInclude Include="H_Tools0.h" />
     <ClInclude Include="mainMenuClass.h" />
     <ClInclude Include="MenuButton.h" />
