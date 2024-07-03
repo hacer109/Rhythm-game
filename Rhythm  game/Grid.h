@@ -1,6 +1,8 @@
 #pragma once
 #include "GridSquare.h"
 #include <iostream>
+#include <vector>
+#include "Custom_Containers.h"
 class Grid
 {
 public:
@@ -18,6 +20,38 @@ public:
 	GridSquare square[8][16];// GridSquare(posX, posY, 0, LIGHTGRAY, size);
 	double sectionStartTime;
 	double sectionEndTime;
+	int sectionBeatStart;
+	int sectionBeatEnd;
+
+	////////////////////////////////*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	//																   \\
+	//																   \\
+	//	Note saving section,which works by  saving the notes		   \\
+	//  inside a vector,the notes themselves are a struct that		   \\
+	//  contains the time they should be hit(calculated by step and    \\
+	//  section multiplied by step time),the corridor/ x position of   \\ 
+	//  the array in the grid,the lenghth smh implemented,			   \\
+	//  and smth more idk											   \\
+	//																   \\
+	////////////////////////////////*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+	std::vector<DisplayPlayNote> sectionNotes;
+
+	void AddNoteToVector(int length,int posXId,int posYId,float timeToPlay,int offset,int SectionId) {
+
+		DisplayPlayNote note = DisplayPlayNote(length,posXId,posYId,timeToPlay,offset,SectionId);
+
+		
+		
+		sectionNotes.push_back(note);
+		
+		
+	}
+	// TO DO: finnish
+	
+
+
 	void AssignGrid() {
 
 		bool isGray = true;

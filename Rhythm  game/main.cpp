@@ -70,6 +70,9 @@ void GameState(curState *gameState, int& gameStateNum) {
 }
 int gameStateNum = 0;
  curState gameState = curState(MainMenu);
+
+
+
 int main()  
 {
     InitWindow(1366, 768, "Rhythm mania");
@@ -87,18 +90,6 @@ int main()
 
     GameState(&gameState, gameStateNum);
     
-
-
-    
-    
-   
-    
-   
-    
-    //AnimatedObject obj = AnimatedObject(GetScreenWidth() / 2, GetScreenHeight() / 2, 0.5,"assets/images/gfDanceTitle", 24,false);
-   
-    
-
 
     while (!WindowShouldClose()) {
 
