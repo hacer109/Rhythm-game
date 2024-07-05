@@ -1,1 +1,1 @@
-Rhythm game made in c++ similar to OSU! mania and Friday night Funkin'
+Rhythm game made in c++ similar to Friday night Funkin'
