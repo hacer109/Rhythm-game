@@ -52,6 +52,19 @@ public:
         
 
     void CharterUpdate() {
+
+
+
+
+
+
+
+
+
+       
+
+
+
         currentID = { (float)sections[gui.section].hoveredId,(float)sections[gui.section].hoveredId2 };
         conductor.ConductorUpdate();
         SetMusicVolume(conductor.song, gui.SongVolume);
@@ -61,13 +74,23 @@ public:
         gui.y = sections[gui.section].hoveredY;
         gui.ID = currentID.x;
         gui.ID2 = currentID.y;
-       // conductor.songBpm = gui.BPM;
+        sections[gui.section].stepLengthInSeconds = conductor.stepLengthInSeconds;
+
+
+       
+
+       
         sections[gui.section].posY = -gui.curTime * ((16 * 16 * sections[0].size) / (conductor.stepLengthInSeconds * 16)) + sections[gui.section].offsetY;
       
         sections[gui.section].AssignGrid();
+        //std::cout << sections[gui.section].allNotes[0][0].CONTAINS_NOTE << std::endl;
         
-        
-        //if (gui.curTime >= sections[gui.section].sectionEndTime) gui.section++;
+        if (IsMouseButtonReleased(0) && sections[gui.section].square[gui.ID][gui.ID2].hoveredOver) {
+
+          //  sections[gui.section].square[gui.ID][gui.ID2].hasNote = true; fml
+            sections[gui.section].AddNoteToArr(gui.NoteLength, gui.ID, gui.ID2, gui.noteOffset, gui.section, conductor.stepLengthInSeconds);
+
+        }
         
         if (conductor.songPositionInBeats == sections[gui.section].sectionBeatEnd) gui.section++;
         gui.Update();

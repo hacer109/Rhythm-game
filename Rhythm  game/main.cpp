@@ -101,7 +101,6 @@ int main()
         BeginDrawing();
         
         scenes[gameStateNum]->Update(numPtr);
-       // obj.UpdateAnimation();
         
        
         EndDrawing();

@@ -76,7 +76,7 @@ class Conductor
 				songPosition = GetMusicTimePlayed(song);//-dspSongTime - firstBeatOffset;
 				songPositionInBeats = floor(songPosition / secPerBeat);//c++ math roundf sucks ass
 				
-				std::cout << "SongPos: " << songPosition << " BPM: " << songBpm << " PosInBeats: " << songPositionInBeats << " SecPerBeat:" << secPerBeat << " step Length: " << stepLengthInSeconds <<  " song length" <<  GetMusicTimeLength(song) << std::endl;
+				//std::cout << "SongPos: " << songPosition << " BPM: " << songBpm << " PosInBeats: " << songPositionInBeats << " SecPerBeat:" << secPerBeat << " step Length: " << stepLengthInSeconds <<  " song length" <<  GetMusicTimeLength(song) << std::endl;
 
 				
 			}

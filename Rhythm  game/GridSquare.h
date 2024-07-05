@@ -1,12 +1,15 @@
 #pragma once
 #include <iostream>
 #include <raylib.h>
+
+
+
 class GridSquare
 {
 public:
 
 	int squareX, squareY, squareSize,noteLength,size, ID, ID2;
-	bool hasNote;
+	bool hasNote = false;
 	bool hoveredOver;
 	Color color;
 	Color hoveredColor;
@@ -22,8 +25,10 @@ public:
 		squareY(squareY),
 		size(size),
 		defaultColor(color)
+		
 
 	{
+		//hasNote = false;
 		rect = { float(squareX),float(squareY), float(16) * float(size), float(16) * float(size) };
 	}
 
@@ -60,11 +65,9 @@ public:
 		}
 
 
-		switch (IsMouseButtonReleased(0)) {
-		case true: hasNote = !hasNote;
-			break;
-		}
+		
 
+		
 	}
 
 

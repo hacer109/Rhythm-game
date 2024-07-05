@@ -13,8 +13,28 @@ public:
 	int hoveredId;
 	int hoveredId2;
 	int offsetY;
+	bool isInitialized[8][16];
+	bool containsNote[8][16];
+
+	void MyGod() {
+
+		for (int i = 0; i < 8; i++) {
+
+			for (int j = 0; j < 16;j++) {
+
+				isInitialized[i][j] = false;
+				containsNote[i][j] = false;
+			}
+
+
+		}
+	}
+
+
+	Grid(int x, int y, int size) :posX(x), posY(y), size(size)  {
 	
-	Grid(int x, int y, int size) :posX(x), posY(y), size(size) {};
+		MyGod();
+	};
 	Color cellColor;
 	const int colnum = 16;
 	GridSquare square[8][16];// GridSquare(posX, posY, 0, LIGHTGRAY, size);
@@ -22,7 +42,7 @@ public:
 	double sectionEndTime;
 	int sectionBeatStart;
 	int sectionBeatEnd;
-
+	float stepLengthInSeconds;
 	////////////////////////////////*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 	//																   \\
 	//																   \\
@@ -36,7 +56,7 @@ public:
 	////////////////////////////////*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 
-	std::vector<DisplayPlayNote> sectionNotes;
+	/*std::vector<DisplayPlayNote> sectionNotes;
 
 	void AddNoteToVector(int length,int posXId,int posYId,float timeToPlay,int offset,int SectionId) {
 
@@ -47,15 +67,31 @@ public:
 		sectionNotes.push_back(note);
 		
 		
+	}*/
+
+	DisplayPlayNote allNotes[8][16];
+
+
+	void AddNoteToArr( int length, int posXId, int posYId, int offset, int SectionId,float StepLengthSec) {
+
+		allNotes[posXId][posYId] = DisplayPlayNote(length, posXId, posYId, offset, SectionId,StepLengthSec);
+		containsNote[posXId][posYId] = !containsNote[posXId][posYId];
+		allNotes[posXId][posYId].CONTAINS_NOTE = containsNote[posXId][posYId];
+
 	}
+
+
+
+
 	// TO DO: finnish
 	
 
+	
 
 	void AssignGrid() {
 
 		bool isGray = true;
-
+		
 
 		for (int i = 0; i < 8; i++) {
 
@@ -73,8 +109,16 @@ public:
 					break;
 				}
 
-
-				square[i][j] = GridSquare(posX + (16 * i * size), posY + (16 * j * size),size, cellColor);
+				if (isInitialized[i][j] == false) {
+				square[i][j] = GridSquare(posX + (16 * i * size), posY + (16 * j * size), size, cellColor);
+				isInitialized[i][j] == true;
+			    }
+				else {
+					square[i][j].squareX = posX + (16 * i * size);
+					square[i][j].squareY = posY + (16 * j * size);
+					square[i][j].size = size;
+					square[i][j].color = cellColor;
+				}
 
 				if (j % 1 == 0) {
 					isGray = !isGray;
@@ -82,9 +126,25 @@ public:
 				GridUpdate();
 			}
 		}
+		
 		GridUpdate();
-
+		DisplayNotes();
 	}
+
+
+	void DisplayNotes() {
+
+		for (int i = 0; i < 8; i++) {
+
+			for (int j = 0; j < colnum; j++) {
+			
+				if (allNotes[i][j].CONTAINS_NOTE == true)
+					allNotes[i][j].DisplayNote(square[i][j].squareX,square[i][j].squareY);
+			}
+		}
+	}
+
+
 	void GridUpdate() {
 
 
@@ -108,8 +168,12 @@ public:
 
 
 				}
+
+				
+
 			}
 		}
+	
 		DrawRectangle(posX + (16 * 4 * size), posY, 5, 16 * 16 * size, GREEN);
 
 	}

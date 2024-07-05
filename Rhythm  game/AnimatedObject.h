@@ -193,6 +193,7 @@ class AnimatedObject
 		pos.width = renderTextures[currentFrame].width*sizeSprite;
 
 		DrawTexturePro(atlas, frameRec,pos ,origin , 0, WHITE);
+		
 
 	}
 

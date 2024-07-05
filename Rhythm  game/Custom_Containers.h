@@ -20,26 +20,45 @@ typedef struct DisplayPlayNote{
 	public:
 
 	PlayNote note;
-	
-	
+	bool CONTAINS_NOTE = false;
 
-	DisplayPlayNote(int length, int posXId, int posYId, float timeToPlay, int offset, int SectionId)
+	DisplayPlayNote()
+	{
+		
+	}
+
+	void CalculateNotePlayTime(int gridY,float stepLengthInSec,int SectionId) {
+
+		float PrevSectionTime;
+		if (SectionId == 0) PrevSectionTime = 0;
+		else PrevSectionTime = 16 * stepLengthInSec * SectionId;
+
+		float currentSectionPlayTime = gridY * stepLengthInSec;
+
+
+		note.timeToHit = currentSectionPlayTime + PrevSectionTime;
+		std::cout << note.timeToHit << std::endl;;
+
+	}
+
+	DisplayPlayNote(int length, int posXId, int posYId, int offset, int SectionId,float StepLengthInSec)
 	{
 
 		
 		note.corridor = posXId;
 		note.length = length;
-		note.timeToHit = timeToPlay;
+		//calculate the note timehit with sectionid and posY
 		note.offset = offset;
 		note.sectionId = SectionId;
-
+		CalculateNotePlayTime(posYId, StepLengthInSec, SectionId);
 	}
 
 	void DisplayNote(int X,int Y) {
 
 		
-		DrawRectangle(X, Y, 25, note.length, BLUE);
-		DrawCircle(X, Y, 50, RED);
+		
+		DrawCircle(X + (3*16/2), Y + (3 * 16 / 2), 20, RED);
+		DrawRectangle((X + (3 * 16 / 2))- 25/2, Y + (3 * 16 / 2), 25, note.length*10, BLUE);// add (3 * 16 / 2) to length when exporting :/
 
 	}
 
