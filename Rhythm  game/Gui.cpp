@@ -17,7 +17,7 @@ void Gui::Draw() {
 	GuiSpinner(rec2, "section   ", &section, 0, maxSections-1, false);
 	
 
-	DrawText(("Sections: "+ to_string(maxSections)).c_str(), 688, 100, 50, WHITE);
+	DrawText(("Sections: "+ to_string(maxSections-2)).c_str(), 688, 100, 50, WHITE);
 	Rectangle rec3{ 688,230,120,24 };
 	bool CanEditValue = false;
 	if (CheckCollisionPointRec(mousePos, rec3))
@@ -55,12 +55,30 @@ void Gui::Draw() {
 	Rectangle rec14{ 50, LineY, 400, 4 };
 	//test test
 	DrawRectangleRec(rec14, RED);
+	Rectangle rec15{ 750,490, 400, 4 };
+	
 
+	Rectangle a{ 848, 144+100, 120, 24 };
+	Rectangle b{ 848, 176 + 100, 120, 24 };
+	Rectangle c{ 848, 208 + 100, 120, 24 };
+	Rectangle d{ 848, 240 + 100, 120, 24 };
+
+	Rectangle layoutRecs[4] = { a,b,c,d };
+	Button000Pressed = GuiButton(layoutRecs[0], "Load Json");
+	Button001Pressed = GuiButton(layoutRecs[1], "Export to Song");
+	Button002Pressed = GuiButton(layoutRecs[2], "Clear Section");
+	if (GuiTextBox(layoutRecs[3], TextBox003Text, 128, TextBox003EditMode)) TextBox003EditMode = !TextBox003EditMode;
+
+	if (ID > 7 || ID< 0) ID = 7;
+	if (ID2 > 15 || ID2 < 0) ID2 = 15;
 }
 
 
 void Gui::Update() {
 
 	Draw();
+
+
+	
 
 }

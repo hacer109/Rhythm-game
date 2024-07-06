@@ -25,6 +25,7 @@ class Conductor
 
 			float timeSignatureNumerator = 4;
 
+			bool isPaused = true;
 
 			std::string songPath;
 
@@ -56,6 +57,11 @@ class Conductor
 
 			}
 
+			void PauseSong() {
+
+				PauseMusicStream(song);
+			}
+
 			void PlaySong() {
 				PlayMusicStream(song);
 			}
@@ -63,14 +69,18 @@ class Conductor
 			void ConductorUpdate() {
 
 				AssignValues();
-                //if(IsKeyReleased(KEY_A))
+               
 				UpdateMusicStream(song);
 
 
-			//	stepLengthInSeconds = (60 / songBpm) * (1 / timeSignatureNumerator);
+			
 
+				if (isPaused)PauseSong();
+				else
+				{
+					PlaySong();
+				}
 				
-				if (IsKeyReleased(KEY_SPACE))PlaySong();
 				
 				
 				songPosition = GetMusicTimePlayed(song);//-dspSongTime - firstBeatOffset;
