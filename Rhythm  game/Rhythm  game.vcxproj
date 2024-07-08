@@ -139,6 +139,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mainMenuClass.cpp" />
     <ClCompile Include="MenuButton.cpp" />
+    <ClCompile Include="NoteSpawner.cpp" />
     <ClCompile Include="PlayerButton.cpp" />
     <ClCompile Include="Song_Stage.cpp" />
   </ItemGroup>
@@ -155,6 +156,7 @@
     <ClInclude Include="H_Tools0.h" />
     <ClInclude Include="mainMenuClass.h" />
     <ClInclude Include="MenuButton.h" />
+    <ClInclude Include="NoteSpawner.h" />
     <ClInclude Include="PlayerButton.h" />
     <ClInclude Include="Song_Stage.h" />
   </ItemGroup>

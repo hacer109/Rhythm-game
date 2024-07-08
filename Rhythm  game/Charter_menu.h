@@ -128,7 +128,7 @@ public:
         ifstream inputFile(a);
         if (!inputFile) {
 
-            cerr << "failed to open file,please put a the properly structured json file" << endl;
+            cerr << "failed to open file,please put  the properly structured json file" << endl;
         }
         else {
 

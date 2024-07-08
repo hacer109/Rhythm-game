@@ -34,11 +34,19 @@ class PlayerButton
 		switch (animState) {
 
 		case 0:
-
+			
 			idle.UpdateAnimation();
 			break;
-		case 1: pressedStatic.UpdateAnimation(); break;
-		case 2: pressedActive.UpdateAnimation(); break;
+
+
+		case 1:
+			
+
+
+			pressedStatic.UpdateAnimation(); break;
+		case 2:
+			
+			pressedActive.UpdateAnimation(); break;
 
 		}
 	}
@@ -47,7 +55,7 @@ class PlayerButton
 	void UpdatePlayerButton() {
 
 		ButtonStates();
-		std::cout << idle.IsFinnished();
+		std::cout << pressedStatic.hasFinished << std::endl;
 	}
 };
 

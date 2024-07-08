@@ -35,7 +35,7 @@ class AnimatedObject
 	// unordered_map<string,int> indexsOfSameAnim;
 	 vector<Xml::SubTexture> subsOfSameAnim;
 	 vector<Xml::SubTexture> renderTextures;
-
+	 bool hasFinished = false;
 	 //TO DO:
 	 //
 	 //		Add a way to separate multiple animations inside an xml file,or have it accept the raw values(sorted)
@@ -173,15 +173,29 @@ class AnimatedObject
 	    
 
 	   elapsedTime += GetFrameTime();
+
+
+	   
 	   if (elapsedTime >= 1.0f / maxFps) {
 		   
 		   
 		   if(isPaused == false)currentFrame++;
 		   elapsedTime = 0;
 
-		   if (currentFrame >= totalFrames) {
-			   currentFrame = 0;
+		   if (currentFrame >= totalFrames && looping == true) {
+			   ResetAnimation();
+			   
 		   }
+		   else if (currentFrame >= totalFrames && looping == false) {
+
+			   currentFrame = totalFrames - 1;
+			   hasFinished = true;
+		   }
+
+
+		   if (currentFrame >= totalFrames)hasFinished = true;
+		   else hasFinished = false;
+		  
 
 	   }
 
@@ -210,15 +224,12 @@ class AnimatedObject
 	   isPaused = false;
 	   currentFrame = 0;
    }
-	
-   bool IsFinnished() {
+   void ResetAnimation() {
 
-	   if (currentFrame == totalFrames) {
-		   return true;
-	   }
-	   else return false;
-	   
-   }
+	   currentFrame = 0;
+
+	}
+   
 
 };
 

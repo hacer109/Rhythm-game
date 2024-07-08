@@ -27,11 +27,15 @@ class Conductor
 
 			bool isPaused = true;
 
+			int curStep;
 			std::string songPath;
 
 			Music song;
 
-			
+			Conductor()
+			{
+
+			}
 
 			Conductor(std::string songPath,float BPM):
 				
@@ -85,7 +89,7 @@ class Conductor
 				
 				songPosition = GetMusicTimePlayed(song);//-dspSongTime - firstBeatOffset;
 				songPositionInBeats = floor(songPosition / secPerBeat);//c++ math roundf sucks ass
-				
+				curStep = floor(songPosition / stepLengthInSeconds);
 				//std::cout << "SongPos: " << songPosition << " BPM: " << songBpm << " PosInBeats: " << songPositionInBeats << " SecPerBeat:" << secPerBeat << " step Length: " << stepLengthInSeconds <<  " song length" <<  GetMusicTimeLength(song) << std::endl;
 
 				
