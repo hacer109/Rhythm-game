@@ -19,13 +19,8 @@ void Gui::Draw() {
 
 	DrawText(("Sections: "+ to_string(maxSections-2)).c_str(), 688, 100, 50, WHITE);
 	Rectangle rec3{ 688,230,120,24 };
-	bool CanEditValue = false;
-	if (CheckCollisionPointRec(mousePos, rec3))
-	{
-		CanEditValue = true;
-	}
-	else { CanEditValue = false; }
-	GuiValueBox(rec3, "BPM     ", &BPM, 0, 335, CanEditValue);
+	
+	if(GuiValueBox(rec3, "BPM     ", &BPM, 0, 335, CanEditValue)) CanEditValue = !CanEditValue;
 	Rectangle rec4{ 688,260,120,24 };
 	Rectangle rec5{ 688,290,120,24 };
 	Rectangle rec6{ 688,320,120,24 };

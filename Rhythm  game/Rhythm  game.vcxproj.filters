@@ -54,6 +54,12 @@
     <ClCompile Include="Custom_Containers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Character_song.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Charter_menu.h">
@@ -90,6 +96,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Custom_Containers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Character_song.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerButton.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

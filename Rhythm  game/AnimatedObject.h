@@ -174,7 +174,7 @@ class AnimatedObject
 
 	   elapsedTime += GetFrameTime();
 	   if (elapsedTime >= 1.0f / maxFps) {
-
+		   
 		   
 		   if(isPaused == false)currentFrame++;
 		   elapsedTime = 0;
@@ -185,12 +185,14 @@ class AnimatedObject
 
 	   }
 
+	   
+
 		ReturnBounds(&frameRec);
 
 		pos.x = posX - (renderTextures[currentFrame].frameX);
 		pos.y = posY - (renderTextures[currentFrame].frameY);
-		pos.height = renderTextures[currentFrame].height*sizeSprite;
-		pos.width = renderTextures[currentFrame].width*sizeSprite;
+		pos.height = renderTextures[currentFrame].frameHeight*sizeSprite;
+		pos.width = renderTextures[currentFrame].frameWidth*sizeSprite;//used to be on width and height for some reason i forgot why :/
 
 		DrawTexturePro(atlas, frameRec,pos ,origin , 0, WHITE);
 		
@@ -209,5 +211,14 @@ class AnimatedObject
 	   currentFrame = 0;
    }
 	
+   bool IsFinnished() {
+
+	   if (currentFrame == totalFrames) {
+		   return true;
+	   }
+	   else return false;
+	   
+   }
+
 };
 

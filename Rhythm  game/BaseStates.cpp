@@ -21,7 +21,6 @@ void Select_Menu::Update(int* gameState) {
 void SongPlay::Update(int* gameState) {
 
 	song_stage.SongStageUpdate();
-	std::cout << "Song play" << std::endl;
 }
 void Debug_menu::Update(int* gameState) {
 

@@ -31,7 +31,7 @@ public:
 	int y=0;
 	int ID=0;
 	int ID2=0;
-
+	bool CanEditValue = false;
 	bool Button000Pressed = false;
     bool Button001Pressed = false;
     bool Button002Pressed = false;

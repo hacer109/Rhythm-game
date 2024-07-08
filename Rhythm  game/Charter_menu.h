@@ -37,6 +37,9 @@ public:
 
     void SaveToJsonChartData() {
        
+        
+
+
         for (int i = 0; i < sections.size();i++) {
 
             for (int j = 0; j < 16; j++) {
@@ -45,6 +48,8 @@ public:
                     nlohmann::json jasonData;// who tf is Jason ??????
                     if (sections[i].allNotes[k][j].CONTAINS_NOTE == true) {
 
+                        jasonData["songPath"] = conductor.songPath;
+                        jasonData["BPM"] = conductor.songBpm;
                         jasonData["sectionID"] = sections[i].allNotes[k][j].note.sectionId;
                         jasonData["corridor"] = sections[i].allNotes[k][j].note.corridor;
                         jasonData["length"] = sections[i].allNotes[k][j].note.length;
@@ -151,6 +156,8 @@ public:
             note.length = entry["length"];
             note.timeToHit = entry["timeToHit"];
             note.offset = entry["offset"];
+            conductor.songBpm = entry["BPM"];
+            gui.BPM = entry["BPM"];
             data.push_back(note);
 
         }
@@ -234,7 +241,7 @@ public:
         sections[gui.section].AssignGrid();
         //std::cout << sections[gui.section].allNotes[0][0].CONTAINS_NOTE << std::endl;
         
-        if (IsMouseButtonReleased(0) && sections[gui.section].square[gui.ID][gui.ID2].hoveredOver == true) {
+        if (IsMouseButtonReleased(0) && sections[gui.section].square[gui.ID][gui.ID2].hoveredOver == true && gui.ID >= 0 && gui.ID2 >= 0) {
 
           //  sections[gui.section].square[gui.ID][gui.ID2].hasNote = true; fml
             sections[gui.section].AddNoteToArr(gui.NoteLength, gui.ID, gui.ID2, gui.noteOffset, gui.section, conductor.stepLengthInSeconds);

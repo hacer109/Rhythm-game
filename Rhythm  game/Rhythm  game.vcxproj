@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="AnimatedObject.cpp" />
     <ClCompile Include="BaseStates.cpp" />
+    <ClCompile Include="Character_song.cpp" />
     <ClCompile Include="Conductor.cpp" />
     <ClCompile Include="curState_.cpp" />
     <ClCompile Include="Custom_Containers.cpp" />
@@ -138,11 +139,13 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mainMenuClass.cpp" />
     <ClCompile Include="MenuButton.cpp" />
+    <ClCompile Include="PlayerButton.cpp" />
     <ClCompile Include="Song_Stage.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AnimatedObject.h" />
     <ClInclude Include="BaseStates.h" />
+    <ClInclude Include="Character_song.h" />
     <ClInclude Include="Charter_menu.h" />
     <ClInclude Include="Conductor.h" />
     <ClInclude Include="Custom_Containers.h" />
@@ -152,6 +155,7 @@
     <ClInclude Include="H_Tools0.h" />
     <ClInclude Include="mainMenuClass.h" />
     <ClInclude Include="MenuButton.h" />
+    <ClInclude Include="PlayerButton.h" />
     <ClInclude Include="Song_Stage.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

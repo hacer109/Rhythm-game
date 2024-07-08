@@ -1,5 +1,6 @@
 C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.cpp;C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\x64\Debug\AnimatedObject.obj
 C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\BaseStates.cpp;C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\x64\Debug\BaseStates.obj
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Character_song.cpp;C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\x64\Debug\Character_song.obj
 C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Conductor.cpp;C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\x64\Debug\Conductor.obj
 C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\curState_.cpp;C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\x64\Debug\curState_.obj
 C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Custom_Containers.cpp;C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\x64\Debug\Custom_Containers.obj
@@ -9,4 +10,5 @@ C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Gui.cpp;C:\Users\WB\Docume
 C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\main.cpp;C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\x64\Debug\main.obj
 C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\mainMenuClass.cpp;C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\x64\Debug\mainMenuClass.obj
 C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\MenuButton.cpp;C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\x64\Debug\MenuButton.obj
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\PlayerButton.cpp;C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\x64\Debug\PlayerButton.obj
 C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Song_Stage.cpp;C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\x64\Debug\Song_Stage.obj

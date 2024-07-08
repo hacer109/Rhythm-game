@@ -75,7 +75,7 @@ int gameStateNum = 0;
 
 int main()  
 {
-    InitWindow(1366, 768, "Rhythm mania");
+    InitWindow(1920, 1080, "Rhythm mania");//  InitWindow(1366, 768, "Rhythm mania");
     SetTargetFPS(168);
     InitAudioDevice();
     
@@ -96,7 +96,7 @@ int main()
         
         
         
-        ClearBackground(ORANGE);
+        ClearBackground(DARKPURPLE);
 
         BeginDrawing();
         

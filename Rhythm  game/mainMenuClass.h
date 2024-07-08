@@ -28,7 +28,7 @@ public:
 		"freeplay basic0",
 		"freeplay white0",
 		currentState,
-		3
+		2
 	);
 	
 
