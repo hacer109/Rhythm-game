@@ -26,7 +26,7 @@ public:
 	std::string songName;
 	std::vector<PlayNote> notes;
 	vector<PlayNote> spawnNotes;
-	NoteSpawner spawner = NoteSpawner(spawnNotes, &conductor,1);
+	NoteSpawner spawner;
 	Song_Stage()
 	{
 
@@ -34,15 +34,16 @@ public:
 	Song_Stage(string songName): songName(songName)
 	{
 		LoadSong(songName);
+		conductor = Conductor("assets/sound/"+songName+".mp3", 175);
 	}
 
 	void LoadSong(std::string name){
 	
-		string a = "assets/Chart_Data/" + name;
+		string a = "assets/Chart_Data/"+name+".json";
 		ifstream inputFile(a);
 		if (!inputFile) {
 
-			cerr << "failed to open file,please put  the properly structured json file" << endl;
+			cout << "failed to open file,please put  the properly structured json file" << endl;
 		}
 		else {
 
@@ -56,7 +57,7 @@ public:
 
 		vector<PlayNote> data;
 		float BPM;
-		
+		string path;
 		for (const auto& entry : Jasondata) {
 			PlayNote note;
 	
@@ -68,6 +69,7 @@ public:
 			note.offset = entry["offset"];
 			conductor.SetBPM(entry["BPM"]);
 			BPM = entry["BPM"];
+			path = entry["songPath"];
 			data.push_back(note);
 
 		}
@@ -75,21 +77,23 @@ public:
 		
 		notes = data;
 		spawnNotes = notes;
-		conductor = Conductor(a, BPM);
-	
+		conductor.songBpm = BPM;
+		spawner = NoteSpawner(spawnNotes, &conductor, 0, 500);
+		
 	}
 
 
-
+	 
 
 	void SongStageUpdate() {
 
-
+		
 
 		conductor.ConductorUpdate();
+		conductor.PlaySong();
+		spawner.SpawnerUpdate();
 
-
-
+		
 
 
 		/*

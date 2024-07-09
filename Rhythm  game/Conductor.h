@@ -1,6 +1,7 @@
 #pragma once
 #include <raylib.h>
 #include <iostream>
+#include <string>
 #include<cmath>
 class Conductor
 {
@@ -43,7 +44,7 @@ class Conductor
 				songPath(songPath)
 			{
 				
-				song = LoadMusicStream((songPath).c_str());
+				song = LoadMusicStream(songPath.c_str());
 				AssignValues();
 			}
 
@@ -90,7 +91,7 @@ class Conductor
 				songPosition = GetMusicTimePlayed(song);//-dspSongTime - firstBeatOffset;
 				songPositionInBeats = floor(songPosition / secPerBeat);//c++ math roundf sucks ass
 				curStep = floor(songPosition / stepLengthInSeconds);
-				//std::cout << "SongPos: " << songPosition << " BPM: " << songBpm << " PosInBeats: " << songPositionInBeats << " SecPerBeat:" << secPerBeat << " step Length: " << stepLengthInSeconds <<  " song length" <<  GetMusicTimeLength(song) << std::endl;
+				std::cout << "SongPos: " << songPosition << " BPM: " << songBpm << " PosInBeats: " << songPositionInBeats << " SecPerBeat:" << secPerBeat << " step Length: " << stepLengthInSeconds <<  " song length" <<  GetMusicTimeLength(song) << std::endl;
 
 				
 			}

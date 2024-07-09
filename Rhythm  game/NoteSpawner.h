@@ -21,11 +21,50 @@ public:
     PlayNote note;
     int stepTime;
     bool played;
-    int x, y;
-
-
-    Note(PlayNote note,int stepTime)
+    float timeInstanciate;
+    int x,speed;
+    float initialY, y;
+    Conductor* cond;
+    Image image;
+    Texture2D textures;
+        
+    Rectangle frameRec;
+    Rectangle pos;
+        
+    Note(PlayNote note,int stepTime,Conductor* condu,int x): note(note),stepTime(stepTime),cond(condu),x(x)
     {
+        initialY = -2000;
+
+        image = LoadImage("assets/images/notes.png");
+            textures = LoadTextureFromImage(image);
+            UnloadImage(image);
+
+            switch (note.corridor) {
+
+            case 0 | 4:
+
+                frameRec = { 0,246,154,157 };
+
+                break;
+
+            case 1 | 5:
+
+                frameRec = { 0,0,157,154 };
+                break;
+
+            case 2 | 6:
+
+                frameRec = { 249,0,157,154 };
+                break;
+
+            case 3 | 7:
+
+                frameRec = { 246,246,154,157 };
+                break;
+
+
+
+            }
 
     }
 
@@ -34,29 +73,30 @@ public:
 
     void DrawNote() {
 
-
-
+        Vector2 origin = { 0,0 };
+        pos.x = x;
+        pos.y = y;
+        pos.width = frameRec.width;
+        pos.height = frameRec.height;
+        DrawTexturePro(textures, frameRec, pos, origin, 0, WHITE);
 
     }
 
 
     void noteUpdate() {
 
-        if (y < 0) {
-
-            played = true;
-       }
-
-
-
         
+
+        y = initialY + (speed * (cond->songPosition - note.timeToHit));
+        if (cond->songPosition >= note.timeToHit) played = true;
+        DrawNote();
 
 
     }
 
     ~Note()
     {
-
+        std::cout << "DESTROED NOTE" << std::endl;
     }
 
 
@@ -72,14 +112,14 @@ public:
         Conductor* conductor;
         int corridor;
         vector<Note> spawnNotes;
-
+        int x;
 
 
     NoteSpawner()
     {
 
     }
-	NoteSpawner(vector<PlayNote> spawnNote,Conductor* conductor,int corridor):corridor(corridor),conductor(conductor),notes(spawnNote)
+	NoteSpawner(vector<PlayNote> spawnNote,Conductor* conductor,int corridor, int x):corridor(corridor),conductor(conductor),notes(spawnNote),x(x)
 	{
         AssignChartNotes(notes, conductor);
         
@@ -95,7 +135,7 @@ public:
 
                 int idY = data[i].timeToHit / conductor->stepLengthInSeconds;
                 
-                spawnNotes.push_back(Note(data[i],idY));
+                spawnNotes.push_back(Note(data[i],idY,conductor,x));
 
             }
         }
@@ -103,6 +143,16 @@ public:
 
     void SpawnerUpdate() {
 
+        for (int i = 0; i < spawnNotes.size();i++) {
+
+
+            if(!spawnNotes[i].played)
+            spawnNotes[i].noteUpdate();
+           
+        }
+
+
+        
 
 
 

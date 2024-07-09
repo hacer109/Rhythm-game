@@ -34,7 +34,10 @@ class SongPlay : public BaseStates
 {
 public:
 	Song_Stage song_stage;
-
+	SongPlay()
+	{
+		song_stage.LoadSong("Philly_Nice");
+	}
 	void virtual Update(int* gameState);
 };
 

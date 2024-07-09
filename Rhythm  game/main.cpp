@@ -87,7 +87,8 @@ int main()
     
   
 
-    BaseStates* scenes[]{ new Main_Menu(),new Select_Menu(),new SongPlay(),new Debug_menu()};
+    BaseStates* scenes[]{ new Main_Menu(),new Select_Menu(),new SongPlay(), new Debug_menu()
+};
 
     GameState(&gameState, gameStateNum);
     
