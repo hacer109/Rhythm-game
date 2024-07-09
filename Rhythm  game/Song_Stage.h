@@ -22,11 +22,12 @@ public:
 	PlayerButton button1 = PlayerButton(300, 100, 1, "assets/images/NOTE_assets", "down confirm instance", "down press instance 1", "arrow static instance 2", 24);
 	PlayerButton button2 = PlayerButton(500, 100, 1, "assets/images/NOTE_assets", "up confirm instance", "up press instance 1", "arrow static instance 4", 24);
 	PlayerButton button3 = PlayerButton(700, 100, 1, "assets/images/NOTE_assets", "right confirm instance", "right press instance 1", "arrow static instance 3", 24);*/
-	Conductor conductor;
+	
 	std::string songName;
 	std::vector<PlayNote> notes;
 	vector<PlayNote> spawnNotes;
 	NoteSpawner spawner;
+	Conductor conductor;
 	Song_Stage()
 	{
 
@@ -34,7 +35,7 @@ public:
 	Song_Stage(string songName): songName(songName)
 	{
 		LoadSong(songName);
-		conductor = Conductor("assets/sound/"+songName+".mp3", 175);
+		
 	}
 
 	void LoadSong(std::string name){
@@ -77,9 +78,9 @@ public:
 		
 		notes = data;
 		spawnNotes = notes;
-		conductor.songBpm = BPM;
-		spawner = NoteSpawner(spawnNotes, &conductor, 0, 500);
-		
+	//	conductor.songBpm = BPM;
+		spawner = NoteSpawner(spawnNotes, &conductor, 4, 500);
+		conductor = Conductor("assets/sound/Philly_Nice.mp3", BPM);
 	}
 
 
@@ -90,7 +91,8 @@ public:
 		
 
 		conductor.ConductorUpdate();
-		conductor.PlaySong();
+	//	conductor.PlaySong();
+		if (IsKeyReleased(KEY_SPACE))conductor.isPaused = !conductor.isPaused;
 		spawner.SpawnerUpdate();
 
 		

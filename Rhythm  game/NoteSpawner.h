@@ -20,10 +20,11 @@ public:
 
     PlayNote note;
     int stepTime;
-    bool played;
+    bool played =false;
     float timeInstanciate;
     int x,speed;
-    float initialY, y;
+    float initialY;
+    int y;
     Conductor* cond;
     Image image;
     Texture2D textures;
@@ -33,7 +34,7 @@ public:
         
     Note(PlayNote note,int stepTime,Conductor* condu,int x): note(note),stepTime(stepTime),cond(condu),x(x)
     {
-        initialY = -2000;
+        initialY = 0;
 
         image = LoadImage("assets/images/notes.png");
             textures = LoadTextureFromImage(image);
@@ -76,8 +77,8 @@ public:
         Vector2 origin = { 0,0 };
         pos.x = x;
         pos.y = y;
-        pos.width = frameRec.width;
-        pos.height = frameRec.height;
+        pos.width = frameRec.width*0.5;
+        pos.height = frameRec.height*0.5;
         DrawTexturePro(textures, frameRec, pos, origin, 0, WHITE);
 
     }
@@ -86,11 +87,11 @@ public:
     void noteUpdate() {
 
         
-
+        speed = 2;
         y = initialY + (speed * (cond->songPosition - note.timeToHit));
-        if (cond->songPosition >= note.timeToHit) played = true;
+        if (cond->songPosition > note.timeToHit) played = true;
         DrawNote();
-
+        std::cout << y << std::endl;
 
     }
 
@@ -146,7 +147,7 @@ public:
         for (int i = 0; i < spawnNotes.size();i++) {
 
 
-            if(!spawnNotes[i].played)
+            //if(!spawnNotes[i].played)
             spawnNotes[i].noteUpdate();
            
         }

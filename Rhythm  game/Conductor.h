@@ -10,19 +10,19 @@ class Conductor
 			
 			float songBpm = 178;
 			
-			float secPerBeat;
+			float secPerBeat=0;
 			
-			float songLengthInSeconds;
+			float songLengthInSeconds=0;
 			
-			float songPosition;
+			float songPosition=0;
 			
-			int songPositionInBeats;
+			int songPositionInBeats=0;
 			
-			float dspSongTime;
+			float dspSongTime=0;
 			
-			float firstBeatOffset;
+			float firstBeatOffset=0;
 			
-			float stepLengthInSeconds;
+			float stepLengthInSeconds=0;
 
 			float timeSignatureNumerator = 4;
 
@@ -65,10 +65,12 @@ class Conductor
 			void PauseSong() {
 
 				PauseMusicStream(song);
+				isPaused = true;
 			}
 
 			void PlaySong() {
 				PlayMusicStream(song);
+				isPaused = false;
 			}
 
 			void ConductorUpdate() {
@@ -91,7 +93,7 @@ class Conductor
 				songPosition = GetMusicTimePlayed(song);//-dspSongTime - firstBeatOffset;
 				songPositionInBeats = floor(songPosition / secPerBeat);//c++ math roundf sucks ass
 				curStep = floor(songPosition / stepLengthInSeconds);
-				std::cout << "SongPos: " << songPosition << " BPM: " << songBpm << " PosInBeats: " << songPositionInBeats << " SecPerBeat:" << secPerBeat << " step Length: " << stepLengthInSeconds <<  " song length" <<  GetMusicTimeLength(song) << std::endl;
+			//	std::cout << "SongPos: " << songPosition << " BPM: " << songBpm << " PosInBeats: " << songPositionInBeats << " SecPerBeat:" << secPerBeat << " step Length: " << stepLengthInSeconds <<  " song length" <<  songLengthInSeconds << std::endl;
 
 				
 			}
@@ -99,7 +101,7 @@ class Conductor
 
 			~Conductor()
 			{
-				UnloadMusicStream(song);
+				//UnloadMusicStream(song);
 			}
 
 };

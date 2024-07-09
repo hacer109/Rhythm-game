@@ -1,114 +1,158 @@
 ﻿  BaseStates.cpp
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Custom_Containers.h(66,2): warning C4091: 'typedef ': ignored on left of 'DisplayPlayNote' when no variable is declared
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Grid.h(116,25): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Conductor.h(61,44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Conductor.h(92,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Conductor.h(93,20): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(104,25): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(203,80): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(203,50): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(204,76): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(204,48): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(216,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(235,27): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(236,28): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(239,123): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(269,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(279,85): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(288,72): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\H_Tools0.h(102,2): warning C4091: 'static ': ignored on left of 'Xml' when no variable is declared
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\H_Tools0.h(110,2): warning C4091: 'static ': ignored on left of 'customTime' when no variable is declared
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(80,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(104,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(119,46): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(120,46): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(121,50): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(122,51): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(185,23): warning C4018: '>=': signed/unsigned mismatch
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(189,28): warning C4018: '>=': signed/unsigned mismatch
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(196,23): warning C4018: '>=': signed/unsigned mismatch
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(206,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(207,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Character_song.h(30,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Character_song.h(31,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Character_song.h(32,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Character_song.h(33,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Character_song.h(34,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\PlayerButton.h(22,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\PlayerButton.h(23,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\PlayerButton.h(24,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\NoteSpawner.h(77,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\NoteSpawner.h(136,25): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Custom_Containers.h(66,2): warning C4091: 'typedef ': ignored on left of 'DisplayPlayNote' when no variable is declared
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Grid.h(116,25): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Conductor.h(61,44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Conductor.h(94,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Conductor.h(95,20): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(104,25): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(203,80): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(203,50): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(204,76): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(204,48): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(216,40): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(235,27): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(236,28): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(239,123): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(269,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(279,85): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(288,72): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\H_Tools0.h(102,2): warning C4091: 'static ': ignored on left of 'Xml' when no variable is declared
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\H_Tools0.h(110,2): warning C4091: 'static ': ignored on left of 'customTime' when no variable is declared
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(80,36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(104,32): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(119,46): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(120,46): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(121,50): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(122,51): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(185,23): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(189,28): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(196,23): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(206,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(207,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Character_song.h(30,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Character_song.h(31,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Character_song.h(32,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Character_song.h(33,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Character_song.h(34,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\PlayerButton.h(22,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\PlayerButton.h(23,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\PlayerButton.h(24,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\NoteSpawner.h(78,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\NoteSpawner.h(79,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\NoteSpawner.h(80,35): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\NoteSpawner.h(81,37): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\NoteSpawner.h(91,22): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\NoteSpawner.h(137,25): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  NoteSpawner.cpp
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\H_Tools0.h(102,2): warning C4091: 'static ': ignored on left of 'Xml' when no variable is declared
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\H_Tools0.h(110,2): warning C4091: 'static ': ignored on left of 'customTime' when no variable is declared
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(80,36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(104,32): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(119,46): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(120,46): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(121,50): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(122,51): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(185,23): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(189,28): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(196,23): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(206,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(207,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Character_song.h(30,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Character_song.h(31,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Character_song.h(32,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Character_song.h(33,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Character_song.h(34,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\PlayerButton.h(22,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\PlayerButton.h(23,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\PlayerButton.h(24,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Custom_Containers.h(66,2): warning C4091: 'typedef ': ignored on left of 'DisplayPlayNote' when no variable is declared
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Conductor.h(61,44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Conductor.h(94,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Conductor.h(95,20): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\NoteSpawner.h(78,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\NoteSpawner.h(79,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\NoteSpawner.h(80,35): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\NoteSpawner.h(81,37): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\NoteSpawner.h(91,22): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\NoteSpawner.h(137,25): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
   Song_Stage.cpp
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\H_Tools0.h(102,2): warning C4091: 'static ': ignored on left of 'Xml' when no variable is declared
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\H_Tools0.h(110,2): warning C4091: 'static ': ignored on left of 'customTime' when no variable is declared
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(80,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(104,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(119,46): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(120,46): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(121,50): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(122,51): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(185,23): warning C4018: '>=': signed/unsigned mismatch
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(189,28): warning C4018: '>=': signed/unsigned mismatch
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(196,23): warning C4018: '>=': signed/unsigned mismatch
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(206,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(207,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Character_song.h(30,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Character_song.h(31,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Character_song.h(32,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Character_song.h(33,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Character_song.h(34,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\PlayerButton.h(22,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\PlayerButton.h(23,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\PlayerButton.h(24,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Custom_Containers.h(66,2): warning C4091: 'typedef ': ignored on left of 'DisplayPlayNote' when no variable is declared
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Conductor.h(61,44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Conductor.h(92,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Conductor.h(93,20): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\NoteSpawner.h(77,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\NoteSpawner.h(136,25): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\H_Tools0.h(102,2): warning C4091: 'static ': ignored on left of 'Xml' when no variable is declared
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\H_Tools0.h(110,2): warning C4091: 'static ': ignored on left of 'customTime' when no variable is declared
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(80,36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(104,32): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(119,46): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(120,46): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(121,50): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(122,51): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(185,23): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(189,28): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(196,23): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(206,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(207,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Character_song.h(30,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Character_song.h(31,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Character_song.h(32,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Character_song.h(33,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Character_song.h(34,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\PlayerButton.h(22,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\PlayerButton.h(23,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\PlayerButton.h(24,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Custom_Containers.h(66,2): warning C4091: 'typedef ': ignored on left of 'DisplayPlayNote' when no variable is declared
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Conductor.h(61,44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Conductor.h(94,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Conductor.h(95,20): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\NoteSpawner.h(78,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\NoteSpawner.h(79,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\NoteSpawner.h(80,35): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\NoteSpawner.h(81,37): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\NoteSpawner.h(91,22): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\NoteSpawner.h(137,25): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
   main.cpp
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Custom_Containers.h(66,2): warning C4091: 'typedef ': ignored on left of 'DisplayPlayNote' when no variable is declared
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Grid.h(116,25): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Conductor.h(61,44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Conductor.h(92,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Conductor.h(93,20): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(104,25): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(203,80): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(203,50): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(204,76): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(204,48): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(216,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(235,27): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(236,28): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(239,123): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(269,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(279,85): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(288,72): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\H_Tools0.h(102,2): warning C4091: 'static ': ignored on left of 'Xml' when no variable is declared
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\H_Tools0.h(110,2): warning C4091: 'static ': ignored on left of 'customTime' when no variable is declared
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(80,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(104,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(119,46): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(120,46): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(121,50): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(122,51): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(185,23): warning C4018: '>=': signed/unsigned mismatch
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(189,28): warning C4018: '>=': signed/unsigned mismatch
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(196,23): warning C4018: '>=': signed/unsigned mismatch
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(206,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(207,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Character_song.h(30,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Character_song.h(31,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Character_song.h(32,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Character_song.h(33,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\Character_song.h(34,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\PlayerButton.h(22,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\PlayerButton.h(23,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\PlayerButton.h(24,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\NoteSpawner.h(77,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\NoteSpawner.h(136,25): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Custom_Containers.h(66,2): warning C4091: 'typedef ': ignored on left of 'DisplayPlayNote' when no variable is declared
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Grid.h(116,25): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Conductor.h(61,44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Conductor.h(94,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Conductor.h(95,20): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(104,25): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(203,80): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(203,50): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(204,76): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(204,48): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(216,40): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(235,27): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(236,28): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(239,123): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(269,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(279,85): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Charter_menu.h(288,72): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\H_Tools0.h(102,2): warning C4091: 'static ': ignored on left of 'Xml' when no variable is declared
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\H_Tools0.h(110,2): warning C4091: 'static ': ignored on left of 'customTime' when no variable is declared
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(80,36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(104,32): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(119,46): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(120,46): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(121,50): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(122,51): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(185,23): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(189,28): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(196,23): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(206,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\AnimatedObject.h(207,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Character_song.h(30,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Character_song.h(31,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Character_song.h(32,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Character_song.h(33,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\Character_song.h(34,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\PlayerButton.h(22,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\PlayerButton.h(23,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\PlayerButton.h(24,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\NoteSpawner.h(78,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\NoteSpawner.h(79,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\NoteSpawner.h(80,35): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\NoteSpawner.h(81,37): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\NoteSpawner.h(91,22): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\NoteSpawner.h(137,25): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
   Generating Code...
-  Rhythm  game.vcxproj -> C:\Users\ASUS\Documents\GitHub\Rhythm-game\x64\Debug\Rhythm  game.exe
+  Rhythm  game.vcxproj -> C:\Users\WB\Documents\GitHub\Rhythm-game\x64\Debug\Rhythm  game.exe
   'pwsh.exe' is not recognized as an internal or external command,
   operable program or batch file.
