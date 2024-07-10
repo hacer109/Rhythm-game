@@ -99,7 +99,7 @@ int main()
         
         
         
-        ClearBackground(DARKPURPLE);
+        ClearBackground(ORANGE);
 
         BeginDrawing();
         

@@ -28,6 +28,11 @@ public:
 	vector<PlayNote> spawnNotes;
 	NoteSpawner spawner;
 	Conductor conductor;
+	Camera2D camera = {0};
+	Vector2 target = { 0,0};
+	Vector2 offset = {GetScreenWidth()/2.0f,GetScreenHeight()/2.0f};
+	float zoom = 0.1f;
+
 	Song_Stage()
 	{
 
@@ -36,6 +41,11 @@ public:
 	{
 		LoadSong(songName);
 		
+		camera.target = target;
+		camera.rotation = 0.0f;
+		camera.zoom = zoom;
+		camera.offset = offset;
+
 	}
 
 	void LoadSong(std::string name){
@@ -79,7 +89,7 @@ public:
 		notes = data;
 		spawnNotes = notes;
 	//	conductor.songBpm = BPM;
-		spawner = NoteSpawner(spawnNotes, &conductor, 4, 500);
+		spawner = NoteSpawner(spawnNotes, &conductor, 5, 0,zoom,500);
 		conductor = Conductor("assets/sound/Philly_Nice.mp3", BPM);
 	}
 
@@ -89,29 +99,35 @@ public:
 	void SongStageUpdate() {
 
 		
-
+		BeginMode2D(camera);
 		conductor.ConductorUpdate();
-	//	conductor.PlaySong();
+	
 		if (IsKeyReleased(KEY_SPACE))conductor.isPaused = !conductor.isPaused;
 		spawner.SpawnerUpdate();
 
 		
+		if (IsKeyReleased(KEY_A))zoom += 0.1f;
+		if (IsKeyReleased(KEY_D))zoom -= 0.1f;
+
+		if (IsKeyReleased(KEY_UP))target.y += 10;
+		if (IsKeyReleased(KEY_DOWN))target.y -= 10;
+		if (IsKeyReleased(KEY_LEFT))target.x += 10;
+		if (IsKeyReleased(KEY_RIGHT))target.x -= 10;
 
 
-		/*
-
-		if (IsKeyDown(KEY_F))button1.animState = 1;
-		else button1.animState = 0;
-		if (IsKeyDown(KEY_J))button2.animState = 1;
-		else button2.animState = 0;
-		if (IsKeyDown(KEY_K))button3.animState = 1;
-		else button3.animState = 0;
-		button.UpdatePlayerButton();
-		button1.UpdatePlayerButton();
-		button2.UpdatePlayerButton();
-		button3.UpdatePlayerButton();*/
+		spawner.size = zoom;
+		DrawRectangle(500, 500, 200, 200, RED);
+		camera.target = target;
 		
-
+		spawner.x = target.x;
+		spawner.y = target.y;
+		camera.rotation = 0.0f;
+		camera.zoom = zoom;
+		camera.offset = offset;
+		
+		//std::cout << zoom << std::endl;
+		
+		EndMode2D();
 	}
 
 	

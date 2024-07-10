@@ -25,16 +25,17 @@ public:
     int x,speed;
     float initialY;
     int y;
+    int size;
     Conductor* cond;
     Image image;
     Texture2D textures;
-        
+    int targetY = GetScreenHeight()-150;
     Rectangle frameRec;
     Rectangle pos;
         
-    Note(PlayNote note,int stepTime,Conductor* condu,int x): note(note),stepTime(stepTime),cond(condu),x(x)
+    Note(PlayNote note,int stepTime,Conductor* condu,int x,int y): y(y),note(note),stepTime(stepTime),cond(condu),x(x)
     {
-        initialY = 0;
+        
 
         image = LoadImage("assets/images/notes.png");
             textures = LoadTextureFromImage(image);
@@ -77,8 +78,8 @@ public:
         Vector2 origin = { 0,0 };
         pos.x = x;
         pos.y = y;
-        pos.width = frameRec.width*0.5;
-        pos.height = frameRec.height*0.5;
+        pos.width = frameRec.width;
+        pos.height = frameRec.height;
         DrawTexturePro(textures, frameRec, pos, origin, 0, WHITE);
 
     }
@@ -88,10 +89,20 @@ public:
 
         
         speed = 2;
-        y = initialY + (speed * (cond->songPosition - note.timeToHit));
+       // y = initialY + (speed * (cond->songPosition - note.timeToHit));
+
+        float traveltime = 4 * cond->secPerBeat;
+
+      //  y = targetY - (0.1f/traveltime) *targetY
+        float a = (16*16*12) / (cond->stepLengthInSeconds*16) ;
+
+        y = (targetY - ((cond->songPosition - note.timeToHit) * (0.45 * speed))*a);//find a num to multiply,calculate the screen to world ratio
+
+
+
         if (cond->songPosition > note.timeToHit) played = true;
         DrawNote();
-        std::cout << y << std::endl;
+        
 
     }
 
@@ -113,14 +124,14 @@ public:
         Conductor* conductor;
         int corridor;
         vector<Note> spawnNotes;
-        int x;
+        int x,size,y;
 
 
     NoteSpawner()
     {
 
     }
-	NoteSpawner(vector<PlayNote> spawnNote,Conductor* conductor,int corridor, int x):corridor(corridor),conductor(conductor),notes(spawnNote),x(x)
+	NoteSpawner(vector<PlayNote> spawnNote,Conductor* conductor,int corridor, int x,int size,int y):y(y),size(size), corridor(corridor), conductor(conductor), notes(spawnNote), x(x)
 	{
         AssignChartNotes(notes, conductor);
         
@@ -136,7 +147,7 @@ public:
 
                 int idY = data[i].timeToHit / conductor->stepLengthInSeconds;
                 
-                spawnNotes.push_back(Note(data[i],idY,conductor,x));
+                spawnNotes.push_back(Note(data[i],idY,conductor,x,y));
 
             }
         }
@@ -149,11 +160,15 @@ public:
 
             //if(!spawnNotes[i].played)
             spawnNotes[i].noteUpdate();
-           
+            spawnNotes[i].size = size;
+            spawnNotes[i].x = x;
+            spawnNotes[i].initialY = y;
+            spawnNotes[i].speed = 2.5;
+
         }
 
 
-        
+        std::cout << spawnNotes.size() << std::endl;
 
 
 
