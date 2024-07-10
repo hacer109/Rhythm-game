@@ -27,6 +27,9 @@ public:
 	std::vector<PlayNote> notes;
 	vector<PlayNote> spawnNotes;
 	NoteSpawner spawner;
+	NoteSpawner spawner2;
+	NoteSpawner spawner3;
+	NoteSpawner spawner4;
 	Conductor conductor;
 	Camera2D camera = {0};
 	Vector2 target = { GetScreenWidth() / 2.0f,GetScreenHeight() / 2.0f };
@@ -89,7 +92,10 @@ public:
 		notes = data;
 		spawnNotes = notes;
 	//	conductor.songBpm = BPM;
-		spawner = NoteSpawner(spawnNotes, &conductor, 5, 0,zoom,500);
+		spawner = NoteSpawner(spawnNotes, &conductor, 0, 0,zoom,500);
+		spawner2 = NoteSpawner(spawnNotes, &conductor, 1, 0, zoom, 700);
+		spawner3 = NoteSpawner(spawnNotes, &conductor, 2, 0, zoom, 900);
+		spawner4 = NoteSpawner(spawnNotes, &conductor, 3, 0, zoom, 1100);
 		conductor = Conductor("assets/sound/Philly_Nice.mp3", BPM);
 	}
 
@@ -116,6 +122,9 @@ public:
 		
 		if (IsKeyReleased(KEY_SPACE))conductor.isPaused = !conductor.isPaused;
 		spawner.SpawnerUpdate();
+		spawner2.SpawnerUpdate();
+		spawner3.SpawnerUpdate();
+		spawner4.SpawnerUpdate();
 
 		
 		
@@ -126,10 +135,19 @@ public:
 		
 		
 		spawner.x = 500;
+		spawner2.x = 700;
+		spawner3.x = 900;
+		spawner4.x = 1100;
+
+
+
 		spawner.y = 360;
+		spawner2.y = 360;
+		spawner3.y = 360;
+		spawner4.y = 360;
 		
 		
-		std::cout << zoom << std::endl;
+		//std::cout << zoom << std::endl;
 		
 		
 	}

@@ -191,7 +191,7 @@ public:
         }
 
 
-        //std::cout << spawnNotes.size() << std::endl;
+        std::cout << spawnNotes.size() << std::endl;
 
 
 
