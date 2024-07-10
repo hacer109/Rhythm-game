@@ -1,3 +1,2 @@
 C:\Users\WB\Documents\programming\Rhythm  game\Rhythm  game\x64\Debug\Rhythm  game.vcxproj.CopyComplete
 C:\Users\ASUS\Documents\GitHub\Rhythm-game\Rhythm  game\x64\Debug\Rhythm  game.vcxproj.CopyComplete
-C:\Users\WB\Documents\GitHub\Rhythm-game\Rhythm  game\x64\Debug\Rhythm  game.vcxproj.CopyComplete
