@@ -56,9 +56,10 @@ typedef struct DisplayPlayNote{
 	void DisplayNote(int X,int Y) {
 
 		
-		
-		DrawCircle(X + (3*16/2), Y + (3 * 16 / 2), 20, RED);
-		DrawRectangle((X + (3 * 16 / 2))- 25/2, Y + (3 * 16 / 2), 25, note.length*10, BLUE);// add (3 * 16 / 2) to length when exporting :/
+		int y = Y + (16 * 3 / 2);
+		std::cout << "asdasd" << std::endl;
+		DrawRectangle((X + (3 * 16 / 2))- 25/2, y, 25, note.length*(16*3)/2, BLUE);
+		DrawCircle(X + (3 * 16 / 2), Y + (3 * 16 / 2), 20, RED);// add (3 * 16 / 2) to length when exporting :/
 
 	}
 

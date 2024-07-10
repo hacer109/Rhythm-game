@@ -29,9 +29,9 @@ public:
 	NoteSpawner spawner;
 	Conductor conductor;
 	Camera2D camera = {0};
-	Vector2 target = { 0,0};
+	Vector2 target = { GetScreenWidth() / 2.0f,GetScreenHeight() / 2.0f };
 	Vector2 offset = {GetScreenWidth()/2.0f,GetScreenHeight()/2.0f};
-	float zoom = 0.1f;
+	float zoom = 1.0f;
 
 	Song_Stage()
 	{
@@ -100,34 +100,38 @@ public:
 
 		
 		BeginMode2D(camera);
-		conductor.ConductorUpdate();
-	
-		if (IsKeyReleased(KEY_SPACE))conductor.isPaused = !conductor.isPaused;
-		spawner.SpawnerUpdate();
-
-		
-		if (IsKeyReleased(KEY_A))zoom += 0.1f;
-		if (IsKeyReleased(KEY_D))zoom -= 0.1f;
-
+		camera.rotation = 0.0f;
+		camera.zoom = zoom;
+		camera.offset = offset;
+		if (IsKeyReleased(KEY_A))zoom += 1.0f;
+		if (IsKeyReleased(KEY_D))zoom -= 1.0f;
+		DrawRectangle(500, 500, 200, 200, RED);
 		if (IsKeyReleased(KEY_UP))target.y += 10;
 		if (IsKeyReleased(KEY_DOWN))target.y -= 10;
 		if (IsKeyReleased(KEY_LEFT))target.x += 10;
 		if (IsKeyReleased(KEY_RIGHT))target.x -= 10;
-
-
-		spawner.size = zoom;
-		DrawRectangle(500, 500, 200, 200, RED);
 		camera.target = target;
-		
-		spawner.x = target.x;
-		spawner.y = target.y;
-		camera.rotation = 0.0f;
-		camera.zoom = zoom;
-		camera.offset = offset;
-		
-		//std::cout << zoom << std::endl;
-		
 		EndMode2D();
+		conductor.ConductorUpdate();
+		
+		if (IsKeyReleased(KEY_SPACE))conductor.isPaused = !conductor.isPaused;
+		spawner.SpawnerUpdate();
+
+		
+		
+
+
+		spawner.size = 1;
+		
+		
+		
+		spawner.x = 500;
+		spawner.y = 360;
+		
+		
+		std::cout << zoom << std::endl;
+		
+		
 	}
 
 	

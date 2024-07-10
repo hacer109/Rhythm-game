@@ -149,7 +149,9 @@
     <ClInclude Include="Character_song.h" />
     <ClInclude Include="Charter_menu.h" />
     <ClInclude Include="Conductor.h" />
-    <ClInclude Include="Custom_Containers.h" />
+    <ClInclude Include="Custom_Containers.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
     <ClInclude Include="Grid.h" />
     <ClInclude Include="GridSquare.h" />
     <ClInclude Include="Gui.h" />

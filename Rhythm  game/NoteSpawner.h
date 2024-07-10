@@ -43,23 +43,44 @@ public:
 
             switch (note.corridor) {
 
-            case 0 | 4:
+            case 0 :
 
                 frameRec = { 0,246,154,157 };
 
                 break;
 
-            case 1 | 5:
+            case 1 :
 
                 frameRec = { 0,0,157,154 };
                 break;
 
-            case 2 | 6:
+            case 2 :
 
                 frameRec = { 249,0,157,154 };
                 break;
 
-            case 3 | 7:
+            case 3 :
+
+                frameRec = { 246,246,154,157 };
+                break;
+
+            case  4:
+
+                frameRec = { 0,246,154,157 };
+
+                break;
+
+            case  5:
+
+                frameRec = { 0,0,157,154 };
+                break;
+
+            case 6:
+
+                frameRec = { 249,0,157,154 };
+                break;
+
+            case  7:
 
                 frameRec = { 246,246,154,157 };
                 break;
@@ -75,11 +96,12 @@ public:
 
     void DrawNote() {
 
+        float inverseZoom = float(size);
         Vector2 origin = { 0,0 };
         pos.x = x;
         pos.y = y;
-        pos.width = frameRec.width;
-        pos.height = frameRec.height;
+        pos.width = float(frameRec.width * inverseZoom);
+        pos.height = float(frameRec.height * inverseZoom);
         DrawTexturePro(textures, frameRec, pos, origin, 0, WHITE);
 
     }
@@ -91,10 +113,10 @@ public:
         speed = 2;
        // y = initialY + (speed * (cond->songPosition - note.timeToHit));
 
-        float traveltime = 4 * cond->secPerBeat;
-
+      //  float traveltime = 4 * cond->secPerBeat;
+        float noteSize = (size * 10);
       //  y = targetY - (0.1f/traveltime) *targetY
-        float a = (16*16*12) / (cond->stepLengthInSeconds*16) ;
+        float a = (16*16*12) / (cond->stepLengthInSeconds*16) ;//12
 
         y = (targetY - ((cond->songPosition - note.timeToHit) * (0.45 * speed))*a);//find a num to multiply,calculate the screen to world ratio
 
@@ -103,7 +125,7 @@ public:
         if (cond->songPosition > note.timeToHit) played = true;
         DrawNote();
         
-
+        
     }
 
     ~Note()
@@ -164,11 +186,12 @@ public:
             spawnNotes[i].x = x;
             spawnNotes[i].initialY = y;
             spawnNotes[i].speed = 2.5;
+            spawnNotes[i].targetY = y+ (GetScreenHeight()/2.0f);
 
         }
 
 
-        std::cout << spawnNotes.size() << std::endl;
+        //std::cout << spawnNotes.size() << std::endl;
 
 
 
