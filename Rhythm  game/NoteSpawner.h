@@ -120,7 +120,7 @@ public:
 
         y = (targetY - ((cond->songPosition - note.timeToHit) * (0.45 * speed))*a);//find a num to multiply,calculate the screen to world ratio
 
-
+        DrawRectangle(x, targetY, 5000, 10, BLUE);
 
         if (cond->songPosition > note.timeToHit) played = true;
         DrawNote();
@@ -185,8 +185,8 @@ public:
             spawnNotes[i].size = size;
             spawnNotes[i].x = x;
             spawnNotes[i].initialY = y;
-            spawnNotes[i].speed = 2.5;
-            spawnNotes[i].targetY = y+ (GetScreenHeight()/2.0f);
+            spawnNotes[i].speed = 9;
+            spawnNotes[i].targetY = y;
 
         }
 

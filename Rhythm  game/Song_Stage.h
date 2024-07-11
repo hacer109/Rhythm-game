@@ -130,7 +130,7 @@ public:
 		
 
 
-		spawner.size = 1;
+		spawner.size = 0.5;
 		
 		
 		
@@ -140,11 +140,11 @@ public:
 		spawner4.x = 1100;
 
 
-
-		spawner.y = 360;
-		spawner2.y = 360;
-		spawner3.y = 360;
-		spawner4.y = 360;
+		int y = 150;
+		spawner.y = y;
+		spawner2.y = y;
+		spawner3.y = y;
+		spawner4.y = y;
 		
 		
 		//std::cout << zoom << std::endl;
