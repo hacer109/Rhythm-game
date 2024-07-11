@@ -141,6 +141,7 @@
     <ClCompile Include="MenuButton.cpp" />
     <ClCompile Include="NoteSpawner.cpp" />
     <ClCompile Include="PlayerButton.cpp" />
+    <ClCompile Include="playGui.cpp" />
     <ClCompile Include="Song_Stage.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -160,6 +161,7 @@
     <ClInclude Include="MenuButton.h" />
     <ClInclude Include="NoteSpawner.h" />
     <ClInclude Include="PlayerButton.h" />
+    <ClInclude Include="playGui.h" />
     <ClInclude Include="Song_Stage.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

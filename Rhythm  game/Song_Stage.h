@@ -18,10 +18,10 @@ public:
 
 	//Character_song bf = Character_song(500,0,1,"assets/images/BOYFRIEND","BF NOTE UP0","BF NOTE DOWN0", "BF NOTE LEFT0", "BF NOTE RIGHT0", "BF idle dance0", 24);
 	
-/*	PlayerButton button = PlayerButton(100, 100, 1, "assets/images/NOTE_assets", "left confirm instance", "left press instance 1", "arrow static instance 1", 24);
-	PlayerButton button1 = PlayerButton(300, 100, 1, "assets/images/NOTE_assets", "down confirm instance", "down press instance 1", "arrow static instance 2", 24);
-	PlayerButton button2 = PlayerButton(500, 100, 1, "assets/images/NOTE_assets", "up confirm instance", "up press instance 1", "arrow static instance 4", 24);
-	PlayerButton button3 = PlayerButton(700, 100, 1, "assets/images/NOTE_assets", "right confirm instance", "right press instance 1", "arrow static instance 3", 24);*/
+	PlayerButton button = PlayerButton(500, 150, -31, "assets/images/NOTE_assets", "left confirm instance 1", "left press instance 1", "arrow static instance 4", 24);
+	PlayerButton button1 = PlayerButton(650, 150, -31, "assets/images/NOTE_assets", "down confirm instance 1", "down press instance 1", "arrow static instance 3", 24);
+	PlayerButton button2 = PlayerButton(800, 150, -31, "assets/images/NOTE_assets", "up confirm instance 1", "up press instance 1", "arrow static instance 2", 24);
+	PlayerButton button3 = PlayerButton(950, 150, -31, "assets/images/NOTE_assets", "right confirm instance 1", "right press instance 1", "arrow static instance 1", 24);
 	
 	std::string songName;
 	std::vector<PlayNote> notes;
@@ -35,6 +35,12 @@ public:
 	Vector2 target = { GetScreenWidth() / 2.0f,GetScreenHeight() / 2.0f };
 	Vector2 offset = {GetScreenWidth()/2.0f,GetScreenHeight()/2.0f};
 	float zoom = 1.0f;
+
+
+
+	
+
+
 
 	Song_Stage()
 	{
@@ -97,11 +103,12 @@ public:
 		spawner3 = NoteSpawner(spawnNotes, &conductor, 2, 0, zoom, 900);
 		spawner4 = NoteSpawner(spawnNotes, &conductor, 3, 0, zoom, 1100);
 		conductor = Conductor("assets/sound/Philly_Nice.mp3", BPM);
+		
 	}
 
 
 	 
-
+	float siz = 31;
 	void SongStageUpdate() {
 
 		
@@ -109,13 +116,13 @@ public:
 		camera.rotation = 0.0f;
 		camera.zoom = zoom;
 		camera.offset = offset;
-		if (IsKeyReleased(KEY_A))zoom += 1.0f;
+		/*if (IsKeyReleased(KEY_A))zoom += 1.0f;
 		if (IsKeyReleased(KEY_D))zoom -= 1.0f;
 		DrawRectangle(500, 500, 200, 200, RED);
 		if (IsKeyReleased(KEY_UP))target.y += 10;
 		if (IsKeyReleased(KEY_DOWN))target.y -= 10;
 		if (IsKeyReleased(KEY_LEFT))target.x += 10;
-		if (IsKeyReleased(KEY_RIGHT))target.x -= 10;
+		if (IsKeyReleased(KEY_RIGHT))target.x -= 10;*/
 		camera.target = target;
 		EndMode2D();
 		conductor.ConductorUpdate();
@@ -127,27 +134,58 @@ public:
 		spawner4.SpawnerUpdate();
 
 		
+		button.UpdatePlayerButton();
+		button2.UpdatePlayerButton();
+		button3.UpdatePlayerButton();
+		button1.UpdatePlayerButton();
+
 		
 
-
-		spawner.size = 0.5;
+		//if (IsKeyReleased(KEY_J))siz -= 10;
+	//	if (IsKeyReleased(KEY_K))siz += 10;
+		spawner.size = siz;
+		spawner2.size = siz;
+		spawner3.size = siz;
+		spawner4.size = siz;
 		
 		
 		
 		spawner.x = 500;
-		spawner2.x = 700;
-		spawner3.x = 900;
-		spawner4.x = 1100;
+		spawner2.x = 650;
+		spawner3.x = 800;
+		spawner4.x = 950;
 
 
-		int y = 150;
+		int y = 768;
+		DrawRectangle(540, 150, 500, 10, RED);
 		spawner.y = y;
 		spawner2.y = y;
 		spawner3.y = y;
 		spawner4.y = y;
 		
 		
-		//std::cout << zoom << std::endl;
+	/*	if (IsKeyDown(KEY_D)) button.animState = 2;
+		else button.animState = 0;
+		if (IsKeyDown(KEY_F)) button1.animState = 2;
+		else button1.animState = 0;
+		if (IsKeyDown(KEY_J)) button2.animState = 2;
+		else button2.animState = 0;
+		if (IsKeyDown(KEY_K)) button3.animState = 2;
+		else button3.animState = 0;*/
+
+		//this code here is pure cancer but im testing so stfu
+		if (IsKeyDown(KEY_D)) {
+
+		
+			button.animState = spawner.teeeeee;
+
+		}
+		else {
+			button.animState = 0;
+		}
+
+
+		//std::cout << spawner.spawnNotes.size() << std::endl;
 		
 		
 	}

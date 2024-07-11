@@ -22,7 +22,9 @@ public:
     int stepTime;
     bool played =false;
     float timeInstanciate;
-    int x,speed;
+    int x;
+    float speed;
+        
     float initialY;
     int y;
     int size;
@@ -91,8 +93,19 @@ public:
 
     }
 
+    int ReturnIndex(PlayNote note) {
+
+        if (note.timeToHit == cond->songPosition || note.timeToHit + 0.04 == cond->songPosition || note.timeToHit - 0.04 == cond->songPosition) {
+            return 2;
+        }
+        else {
+
+            return 0;
+        }
 
 
+    }
+    
 
     void DrawNote() {
 
@@ -100,31 +113,33 @@ public:
         Vector2 origin = { 0,0 };
         pos.x = x;
         pos.y = y;
-        pos.width = float(frameRec.width * inverseZoom);
-        pos.height = float(frameRec.height * inverseZoom);
+        pos.width = float(frameRec.width - inverseZoom);
+        pos.height = float(frameRec.height - inverseZoom);
         DrawTexturePro(textures, frameRec, pos, origin, 0, WHITE);
 
     }
 
-
+    int assets = 0;
     void noteUpdate() {
 
         
-        speed = 2;
+     
        // y = initialY + (speed * (cond->songPosition - note.timeToHit));
 
       //  float traveltime = 4 * cond->secPerBeat;
         float noteSize = (size * 10);
       //  y = targetY - (0.1f/traveltime) *targetY
-        float a = (16*16*12) / (cond->stepLengthInSeconds*16) ;//12
+        float a = (16*16*12) / (cond->stepLengthInSeconds*16) + 150 ;//12
 
         y = (targetY - ((cond->songPosition - note.timeToHit) * (0.45 * speed))*a);//find a num to multiply,calculate the screen to world ratio
 
         DrawRectangle(x, targetY, 5000, 10, BLUE);
 
-        if (cond->songPosition > note.timeToHit) played = true;
+        if (y < -200) played = true;
         DrawNote();
         
+
+        assets = ReturnIndex(note);
         
     }
 
@@ -175,6 +190,12 @@ public:
         }
     }
 
+
+
+    
+
+    int teeeeee;
+
     void SpawnerUpdate() {
 
         for (int i = 0; i < spawnNotes.size();i++) {
@@ -185,13 +206,15 @@ public:
             spawnNotes[i].size = size;
             spawnNotes[i].x = x;
             spawnNotes[i].initialY = y;
-            spawnNotes[i].speed = 9;
+            spawnNotes[i].speed = 2;
             spawnNotes[i].targetY = y;
+            teeeeee = spawnNotes[i].assets;
+            //if (spawnNotes[i].played == true) spawnNotes.erase(spawnNotes.begin()+i);
 
         }
 
 
-        std::cout << spawnNotes.size() << std::endl;
+        //std::cout << size << std::endl;
 
 
 

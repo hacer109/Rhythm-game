@@ -205,8 +205,8 @@ class AnimatedObject
 
 		pos.x = posX - (renderTextures[currentFrame].frameX);
 		pos.y = posY - (renderTextures[currentFrame].frameY);
-		pos.height = renderTextures[currentFrame].frameHeight*sizeSprite;
-		pos.width = renderTextures[currentFrame].frameWidth*sizeSprite;//used to be on width and height for some reason i forgot why :/
+		pos.height = renderTextures[currentFrame].frameHeight+sizeSprite;
+		pos.width = renderTextures[currentFrame].frameWidth+sizeSprite;//used to be on width and height for some reason i forgot why :/
 
 		DrawTexturePro(atlas, frameRec,pos ,origin , 0, WHITE);
 		

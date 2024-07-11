@@ -20,8 +20,8 @@ class PlayerButton
 	PlayerButton(int x, int y, int size, string charPath, string PressedActiveAnim, string PressedStaticAnim, string IDLEanim, int fps)
 	{
 		idle = AnimatedObject(x, y, size, charPath, fps, IDLEanim, false);
-		pressedActive = AnimatedObject(x, y, size, charPath, fps, PressedActiveAnim, false);
-		pressedStatic = AnimatedObject(x, y, size, charPath, fps, PressedStaticAnim, false);
+		pressedActive = AnimatedObject(x-30, y-30, size-10, charPath, fps, PressedActiveAnim, false);
+		pressedStatic = AnimatedObject(x-20, y-20, size-10, charPath, fps, PressedStaticAnim, false);
 		
 
 
@@ -55,7 +55,7 @@ class PlayerButton
 	void UpdatePlayerButton() {
 
 		ButtonStates();
-		std::cout << pressedStatic.hasFinished << std::endl;
+		//std::cout << pressedStatic.hasFinished << std::endl;
 	}
 };
 
