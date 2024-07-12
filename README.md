@@ -1,4 +1,4 @@
-Rhythm game made in c++ similar to Friday night Funkin'
+Friday night Funkin' made in c++ 
 
 using: tinyxml2,nlohmann json, raylib,raygui
 
