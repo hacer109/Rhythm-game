@@ -9,6 +9,7 @@ void Main_Menu::Update(int* gameState) {
 
 	//mainMenu.currentState = gameState;
 	mainMenu.Playsong.gameState4 = gameState;
+	mainMenu.charter.gameState4 = gameState;
 	//cout << gameState << endl;
 	mainMenu.mainMenuUpdate();
 
@@ -20,9 +21,14 @@ void Select_Menu::Update(int* gameState) {
 }
 void SongPlay::Update(int* gameState) {
 
+	if (IsKeyReleased(KEY_F7)) *gameState = 0;
+
+
 	song_stage.SongStageUpdate();
 }
 void Debug_menu::Update(int* gameState) {
+
+	if (IsKeyReleased(KEY_F7)) *gameState = 0;
 
 	charterMenu.CharterUpdate();
 	

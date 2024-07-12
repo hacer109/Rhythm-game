@@ -14,7 +14,7 @@ void mainMenuClass::mainMenuUpdate() {
 	//cout << currentState << endl;
 	
 	Playsong.UpdateButton(test);
-
+	charter.UpdateButton(test);
 
 	
 

@@ -20,7 +20,7 @@
     {
         "BPM": 175.0,
         "corridor": 1,
-        "length": 3,
+        "length": 7,
         "offset": 0,
         "sectionID": 0,
         "songPath": "assets/sound/Philly_Nice.mp3",
@@ -29,7 +29,7 @@
     {
         "BPM": 175.0,
         "corridor": 3,
-        "length": 3,
+        "length": 7,
         "offset": 0,
         "sectionID": 0,
         "songPath": "assets/sound/Philly_Nice.mp3",
@@ -56,7 +56,7 @@
     {
         "BPM": 175.0,
         "corridor": 1,
-        "length": 3,
+        "length": 7,
         "offset": 0,
         "sectionID": 1,
         "songPath": "assets/sound/Philly_Nice.mp3",
@@ -65,7 +65,7 @@
     {
         "BPM": 175.0,
         "corridor": 3,
-        "length": 3,
+        "length": 7,
         "offset": 0,
         "sectionID": 1,
         "songPath": "assets/sound/Philly_Nice.mp3",
@@ -92,20 +92,20 @@
     {
         "BPM": 175.0,
         "corridor": 1,
-        "length": 3,
+        "length": 7,
         "offset": 0,
         "sectionID": 2,
         "songPath": "assets/sound/Philly_Nice.mp3",
-        "timeToHit": 3.4285714626312256
+        "timeToHit": 3.3428573608398438
     },
     {
         "BPM": 175.0,
         "corridor": 3,
-        "length": 3,
+        "length": 7,
         "offset": 0,
         "sectionID": 2,
         "songPath": "assets/sound/Philly_Nice.mp3",
-        "timeToHit": 3.7714285850524902
+        "timeToHit": 3.6857142448425293
     },
     {
         "BPM": 175.0,
@@ -169,5 +169,6224 @@
         "sectionID": 3,
         "songPath": "assets/sound/Philly_Nice.mp3",
         "timeToHit": 5.314286231994629
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 4,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 5.6571431159973145
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 4,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 5.828571796417236
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 6,
+        "offset": 0,
+        "sectionID": 4,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 6.171428680419922
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 4,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 6.514286041259766
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 4,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 6.6857147216796875
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 5,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 7.028571605682373
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 5,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 7.114285945892334
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 5,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 7.285714149475098
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 5,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 7.4571428298950195
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 5,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 7.628571510314941
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 5,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 7.971428871154785
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 6,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 8.40000057220459
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 3,
+        "offset": 0,
+        "sectionID": 6,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 8.742857933044434
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 6,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 8.914286613464355
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 6,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 9.085714340209961
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 6,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 9.171428680419922
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 6,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 9.257143020629883
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 6,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 9.428571701049805
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 9.600000381469727
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 9.771429061889648
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 9.94285774230957
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 10.114286422729492
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 10.200000762939453
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 10.285715103149414
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 10.45714282989502
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 10.54285717010498
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 10.628571510314941
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 10.800000190734863
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 10.971428871154785
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 11.142857551574707
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 11.314286231994629
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 11.314286231994629
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 11.48571491241455
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 11.657143592834473
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 11.657143592834473
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 11.828571319580078
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 11.914285659790039
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 12.257143020629883
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 9,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 12.428571701049805
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 9,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 12.771429061889648
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 9,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 12.94285774230957
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 9,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 13.114286422729492
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 9,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 13.114286422729492
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 9,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 13.285714149475098
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 9,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 13.45714282989502
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 9,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 13.628571510314941
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 9,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 13.628571510314941
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 13.800000190734863
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 13.885714530944824
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 13.971428871154785
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 14.142857551574707
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 14.314286231994629
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 14.314286231994629
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 14.40000057220459
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 14.485713958740234
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 3,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 14.485713958740234
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 14.657142639160156
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 14.828571319580078
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 15.0
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 11,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 15.171428680419922
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 11,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 15.257143020629883
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 11,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 15.342857360839844
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 11,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 15.514286041259766
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 11,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 15.685714721679688
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 11,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 15.942856788635254
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 11,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 16.02857208251953
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 11,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 16.371429443359375
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 12,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 16.542858123779297
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 12,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 16.88571548461914
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 12,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 17.057144165039063
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 12,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 17.142858505249023
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 12,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 17.314287185668945
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 12,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 17.485715866088867
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 12,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 17.65714454650879
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 17.828571319580078
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 18.171428680419922
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 18.257143020629883
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 18.342857360839844
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 18.514286041259766
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 18.514286041259766
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 18.685714721679688
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 18.77142906188965
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 18.94285774230957
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 3,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 19.114286422729492
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 19.200000762939453
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 19.371429443359375
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 19.542858123779297
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 19.71428680419922
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 19.80000114440918
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 19.88571548461914
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 20.057144165039063
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 20.228572845458984
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 20.400001525878906
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 20.485715866088867
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 15,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 20.657142639160156
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 15,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 20.828571319580078
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 4,
+        "offset": 0,
+        "sectionID": 15,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 21.0
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 15,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 21.342857360839844
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 15,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 21.342857360839844
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 15,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 21.514286041259766
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 15,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 21.685714721679688
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 15,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 21.85714340209961
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 16,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 22.114286422729492
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 16,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 22.200000762939453
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 16,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 22.542858123779297
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 16,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 22.71428680419922
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 16,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 23.057144165039063
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 16,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 23.228572845458984
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 17,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 23.400001525878906
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 17,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 23.571430206298828
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 17,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 23.914287567138672
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 17,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 24.085716247558594
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 17,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 24.428573608398438
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 17,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 24.60000228881836
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 24.685714721679688
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 24.77142906188965
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 24.94285774230957
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 25.114286422729492
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 25.285715103149414
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 25.457143783569336
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 25.542858123779297
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 25.628572463989258
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 25.80000114440918
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 25.9714298248291
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 0,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 0.17142857611179352
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 0,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 0.34285715222358704
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 7,
+        "offset": 0,
+        "sectionID": 0,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 0.6857143044471741
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 7,
+        "offset": 0,
+        "sectionID": 0,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 1.0285714864730835
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 1,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 1.5428571701049805
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 1,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 1.7142857313156128
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 7,
+        "offset": 0,
+        "sectionID": 1,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 2.057142972946167
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 7,
+        "offset": 0,
+        "sectionID": 1,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 2.4000000953674316
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 2,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 2.914285898208618
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 2,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 3.085714340209961
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 7,
+        "offset": 0,
+        "sectionID": 2,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 3.3428573608398438
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 7,
+        "offset": 0,
+        "sectionID": 2,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 3.6857142448425293
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 2,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 4.028571605682373
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 3,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 4.114285945892334
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 3,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 4.285714626312256
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 3,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 4.457143306732178
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 3,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 4.800000190734863
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 3,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 5.142857551574707
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 3,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 5.314286231994629
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 4,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 5.6571431159973145
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 4,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 5.828571796417236
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 6,
+        "offset": 0,
+        "sectionID": 4,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 6.171428680419922
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 4,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 6.514286041259766
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 4,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 6.6857147216796875
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 5,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 7.028571605682373
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 5,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 7.114285945892334
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 5,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 7.285714149475098
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 5,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 7.4571428298950195
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 5,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 7.628571510314941
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 5,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 7.971428871154785
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 6,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 8.40000057220459
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 3,
+        "offset": 0,
+        "sectionID": 6,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 8.742857933044434
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 6,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 8.914286613464355
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 6,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 9.085714340209961
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 6,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 9.171428680419922
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 6,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 9.257143020629883
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 6,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 9.428571701049805
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 9.600000381469727
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 9.771429061889648
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 9.94285774230957
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 10.114286422729492
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 10.200000762939453
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 10.285715103149414
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 10.45714282989502
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 10.54285717010498
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 10.628571510314941
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 10.800000190734863
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 10.971428871154785
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 11.142857551574707
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 11.314286231994629
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 11.314286231994629
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 11.48571491241455
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 11.657143592834473
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 11.657143592834473
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 11.828571319580078
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 11.914285659790039
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 12.257143020629883
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 9,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 12.428571701049805
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 9,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 12.771429061889648
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 9,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 12.94285774230957
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 9,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 13.114286422729492
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 9,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 13.114286422729492
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 9,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 13.285714149475098
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 9,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 13.45714282989502
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 9,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 13.628571510314941
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 9,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 13.628571510314941
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 13.800000190734863
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 13.885714530944824
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 13.971428871154785
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 14.142857551574707
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 14.314286231994629
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 14.314286231994629
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 14.40000057220459
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 14.485713958740234
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 3,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 14.485713958740234
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 14.657142639160156
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 14.828571319580078
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 15.0
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 11,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 15.171428680419922
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 11,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 15.257143020629883
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 11,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 15.342857360839844
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 11,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 15.514286041259766
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 11,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 15.685714721679688
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 11,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 15.942856788635254
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 11,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 16.02857208251953
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 11,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 16.371429443359375
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 12,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 16.542858123779297
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 12,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 16.88571548461914
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 12,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 17.057144165039063
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 12,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 17.142858505249023
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 12,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 17.314287185668945
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 12,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 17.485715866088867
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 12,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 17.65714454650879
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 17.828571319580078
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 18.171428680419922
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 18.257143020629883
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 18.342857360839844
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 18.514286041259766
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 18.514286041259766
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 18.685714721679688
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 18.77142906188965
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 18.94285774230957
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 3,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 19.114286422729492
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 19.200000762939453
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 19.371429443359375
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 19.542858123779297
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 19.71428680419922
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 19.80000114440918
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 19.88571548461914
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 20.057144165039063
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 20.228572845458984
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 20.400001525878906
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 20.485715866088867
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 15,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 20.657142639160156
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 15,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 20.828571319580078
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 4,
+        "offset": 0,
+        "sectionID": 15,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 21.0
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 15,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 21.342857360839844
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 15,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 21.342857360839844
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 15,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 21.514286041259766
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 15,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 21.685714721679688
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 15,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 21.85714340209961
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 16,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 22.114286422729492
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 16,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 22.200000762939453
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 16,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 22.542858123779297
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 16,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 22.71428680419922
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 16,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 23.057144165039063
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 16,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 23.228572845458984
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 17,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 23.400001525878906
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 17,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 23.571430206298828
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 17,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 23.914287567138672
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 17,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 24.085716247558594
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 17,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 24.428573608398438
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 17,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 24.60000228881836
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 24.685714721679688
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 24.77142906188965
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 24.94285774230957
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 25.114286422729492
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 25.285715103149414
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 25.457143783569336
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 25.542858123779297
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 25.628572463989258
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 25.80000114440918
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 25.9714298248291
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 19,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 26.228572845458984
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 19,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 26.314287185668945
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 19,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 26.314287185668945
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 19,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 26.65714454650879
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 19,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 26.65714454650879
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 19,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 26.82857322692871
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 19,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 26.82857322692871
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 19,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 27.171430587768555
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 19,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 27.342859268188477
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 20,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 27.514286041259766
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 20,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 27.600000381469727
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 20,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 27.685714721679688
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 20,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 27.85714340209961
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 20,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 28.02857208251953
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 20,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 28.200000762939453
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 20,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 28.542858123779297
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 20,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 28.71428680419922
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 21,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 28.88571548461914
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 21,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 29.057144165039063
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 21,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 29.228572845458984
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 21,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 29.314287185668945
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 21,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 29.400001525878906
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 21,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 29.571430206298828
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 21,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 29.74285888671875
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 21,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 29.914287567138672
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 21,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 30.085716247558594
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 22,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 30.171428680419922
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 22,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 30.257143020629883
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 22,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 30.428571701049805
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 22,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 30.600000381469727
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 22,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 30.685714721679688
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 22,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 30.77142906188965
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 22,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 30.94285774230957
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 22,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 31.114286422729492
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 22,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 31.200000762939453
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 22,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 31.285715103149414
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 22,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 31.457143783569336
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 23,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 31.628572463989258
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 23,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 31.71428680419922
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 23,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 31.80000114440918
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 23,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 31.9714298248291
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 23,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 32.14285659790039
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 23,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 32.31428527832031
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 23,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 32.400001525878906
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 23,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 32.400001525878906
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 23,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 32.485713958740234
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 0,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 0.17142857611179352
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 0,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 0.34285715222358704
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 7,
+        "offset": 0,
+        "sectionID": 0,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 0.6857143044471741
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 7,
+        "offset": 0,
+        "sectionID": 0,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 1.0285714864730835
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 1,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 1.5428571701049805
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 1,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 1.7142857313156128
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 7,
+        "offset": 0,
+        "sectionID": 1,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 2.057142972946167
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 7,
+        "offset": 0,
+        "sectionID": 1,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 2.4000000953674316
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 2,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 2.914285898208618
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 2,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 3.085714340209961
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 7,
+        "offset": 0,
+        "sectionID": 2,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 3.3428573608398438
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 7,
+        "offset": 0,
+        "sectionID": 2,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 3.6857142448425293
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 2,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 4.028571605682373
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 3,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 4.114285945892334
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 3,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 4.285714626312256
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 3,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 4.457143306732178
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 3,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 4.800000190734863
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 3,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 5.142857551574707
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 3,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 5.314286231994629
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 4,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 5.6571431159973145
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 4,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 5.828571796417236
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 6,
+        "offset": 0,
+        "sectionID": 4,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 6.171428680419922
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 4,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 6.514286041259766
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 4,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 6.6857147216796875
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 5,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 7.028571605682373
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 5,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 7.114285945892334
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 5,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 7.285714149475098
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 5,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 7.4571428298950195
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 5,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 7.628571510314941
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 5,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 7.971428871154785
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 6,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 8.40000057220459
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 3,
+        "offset": 0,
+        "sectionID": 6,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 8.742857933044434
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 6,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 8.914286613464355
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 6,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 9.085714340209961
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 6,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 9.171428680419922
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 6,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 9.257143020629883
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 6,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 9.428571701049805
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 9.600000381469727
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 9.771429061889648
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 9.94285774230957
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 10.114286422729492
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 10.200000762939453
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 10.285715103149414
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 10.45714282989502
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 10.54285717010498
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 10.628571510314941
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 10.800000190734863
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 10.971428871154785
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 11.142857551574707
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 11.314286231994629
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 11.314286231994629
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 11.48571491241455
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 11.657143592834473
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 11.657143592834473
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 11.828571319580078
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 11.914285659790039
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 12.257143020629883
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 9,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 12.428571701049805
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 9,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 12.771429061889648
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 9,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 12.94285774230957
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 9,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 13.114286422729492
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 9,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 13.114286422729492
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 9,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 13.285714149475098
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 9,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 13.45714282989502
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 9,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 13.628571510314941
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 9,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 13.628571510314941
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 13.800000190734863
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 13.885714530944824
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 13.971428871154785
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 14.142857551574707
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 14.314286231994629
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 14.314286231994629
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 14.40000057220459
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 14.485713958740234
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 3,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 14.485713958740234
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 14.657142639160156
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 14.828571319580078
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 15.0
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 11,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 15.171428680419922
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 11,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 15.257143020629883
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 11,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 15.342857360839844
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 11,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 15.514286041259766
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 11,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 15.685714721679688
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 11,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 15.942856788635254
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 11,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 16.02857208251953
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 11,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 16.371429443359375
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 12,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 16.542858123779297
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 12,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 16.88571548461914
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 12,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 17.057144165039063
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 12,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 17.142858505249023
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 12,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 17.314287185668945
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 12,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 17.485715866088867
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 12,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 17.65714454650879
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 17.828571319580078
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 18.171428680419922
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 18.257143020629883
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 18.342857360839844
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 18.514286041259766
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 18.514286041259766
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 18.685714721679688
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 18.77142906188965
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 18.94285774230957
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 3,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 19.114286422729492
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 19.200000762939453
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 19.371429443359375
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 19.542858123779297
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 19.71428680419922
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 19.80000114440918
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 19.88571548461914
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 20.057144165039063
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 20.228572845458984
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 20.400001525878906
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 20.485715866088867
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 15,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 20.657142639160156
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 15,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 20.828571319580078
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 4,
+        "offset": 0,
+        "sectionID": 15,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 21.0
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 15,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 21.342857360839844
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 15,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 21.342857360839844
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 15,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 21.514286041259766
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 15,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 21.685714721679688
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 15,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 21.85714340209961
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 16,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 22.114286422729492
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 16,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 22.200000762939453
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 16,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 22.542858123779297
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 16,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 22.71428680419922
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 16,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 23.057144165039063
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 16,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 23.228572845458984
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 17,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 23.400001525878906
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 17,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 23.571430206298828
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 17,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 23.914287567138672
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 17,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 24.085716247558594
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 17,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 24.428573608398438
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 17,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 24.60000228881836
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 24.685714721679688
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 24.77142906188965
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 24.94285774230957
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 25.114286422729492
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 25.285715103149414
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 25.457143783569336
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 25.542858123779297
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 25.628572463989258
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 25.80000114440918
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 25.9714298248291
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 19,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 26.228572845458984
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 19,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 26.314287185668945
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 19,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 26.314287185668945
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 19,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 26.65714454650879
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 19,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 26.65714454650879
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 19,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 26.82857322692871
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 19,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 26.82857322692871
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 19,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 27.171430587768555
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 19,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 27.342859268188477
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 20,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 27.514286041259766
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 20,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 27.600000381469727
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 20,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 27.685714721679688
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 20,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 27.85714340209961
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 20,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 28.02857208251953
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 20,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 28.200000762939453
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 20,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 28.542858123779297
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 20,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 28.71428680419922
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 21,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 28.88571548461914
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 21,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 29.057144165039063
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 21,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 29.228572845458984
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 21,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 29.314287185668945
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 21,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 29.400001525878906
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 21,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 29.571430206298828
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 21,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 29.74285888671875
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 21,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 29.914287567138672
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 21,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 30.085716247558594
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 22,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 30.171428680419922
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 22,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 30.257143020629883
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 22,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 30.428571701049805
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 22,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 30.600000381469727
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 22,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 30.685714721679688
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 22,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 30.77142906188965
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 22,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 30.94285774230957
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 22,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 31.114286422729492
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 22,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 31.200000762939453
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 22,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 31.285715103149414
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 22,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 31.457143783569336
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 23,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 31.628572463989258
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 23,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 31.71428680419922
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 23,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 31.80000114440918
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 23,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 31.9714298248291
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 23,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 32.14285659790039
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 23,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 32.31428527832031
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 23,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 32.400001525878906
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 23,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 32.400001525878906
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 23,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 32.485713958740234
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 0,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 0.17142857611179352
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 0,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 0.34285715222358704
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 7,
+        "offset": 0,
+        "sectionID": 0,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 0.6857143044471741
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 7,
+        "offset": 0,
+        "sectionID": 0,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 1.0285714864730835
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 1,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 1.5428571701049805
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 1,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 1.7142857313156128
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 7,
+        "offset": 0,
+        "sectionID": 1,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 2.057142972946167
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 7,
+        "offset": 0,
+        "sectionID": 1,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 2.4000000953674316
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 2,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 2.914285898208618
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 2,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 3.085714340209961
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 7,
+        "offset": 0,
+        "sectionID": 2,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 3.3428573608398438
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 7,
+        "offset": 0,
+        "sectionID": 2,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 3.6857142448425293
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 2,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 4.028571605682373
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 3,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 4.114285945892334
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 3,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 4.285714626312256
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 3,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 4.457143306732178
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 3,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 4.800000190734863
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 3,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 5.142857551574707
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 3,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 5.314286231994629
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 4,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 5.6571431159973145
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 4,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 5.828571796417236
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 6,
+        "offset": 0,
+        "sectionID": 4,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 6.171428680419922
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 4,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 6.514286041259766
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 4,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 6.6857147216796875
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 5,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 7.028571605682373
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 5,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 7.114285945892334
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 5,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 7.285714149475098
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 5,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 7.4571428298950195
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 5,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 7.628571510314941
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 5,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 7.971428871154785
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 6,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 8.40000057220459
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 3,
+        "offset": 0,
+        "sectionID": 6,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 8.742857933044434
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 6,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 8.914286613464355
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 6,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 9.085714340209961
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 6,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 9.171428680419922
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 6,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 9.257143020629883
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 6,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 9.428571701049805
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 9.600000381469727
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 9.771429061889648
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 9.94285774230957
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 10.114286422729492
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 10.200000762939453
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 10.285715103149414
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 10.45714282989502
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 10.54285717010498
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 10.628571510314941
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 7,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 10.800000190734863
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 10.971428871154785
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 11.142857551574707
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 11.314286231994629
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 11.314286231994629
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 11.48571491241455
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 11.657143592834473
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 11.657143592834473
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 11.828571319580078
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 11.914285659790039
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 8,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 12.257143020629883
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 9,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 12.428571701049805
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 9,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 12.771429061889648
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 9,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 12.94285774230957
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 9,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 13.114286422729492
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 9,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 13.114286422729492
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 9,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 13.285714149475098
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 9,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 13.45714282989502
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 9,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 13.628571510314941
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 9,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 13.628571510314941
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 13.800000190734863
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 13.885714530944824
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 13.971428871154785
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 14.142857551574707
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 14.314286231994629
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 14.314286231994629
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 14.40000057220459
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 14.485713958740234
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 3,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 14.485713958740234
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 14.657142639160156
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 14.828571319580078
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 10,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 15.0
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 11,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 15.171428680419922
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 11,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 15.257143020629883
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 11,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 15.342857360839844
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 11,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 15.514286041259766
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 11,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 15.685714721679688
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 11,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 15.942856788635254
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 11,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 16.02857208251953
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 11,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 16.371429443359375
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 12,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 16.542858123779297
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 12,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 16.88571548461914
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 12,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 17.057144165039063
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 12,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 17.142858505249023
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 12,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 17.314287185668945
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 12,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 17.485715866088867
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 12,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 17.65714454650879
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 17.828571319580078
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 18.171428680419922
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 18.257143020629883
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 18.342857360839844
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 18.514286041259766
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 18.514286041259766
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 18.685714721679688
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 18.77142906188965
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 18.94285774230957
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 3,
+        "offset": 0,
+        "sectionID": 13,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 19.114286422729492
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 19.200000762939453
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 19.371429443359375
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 19.542858123779297
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 19.71428680419922
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 19.80000114440918
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 19.88571548461914
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 20.057144165039063
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 20.228572845458984
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 20.400001525878906
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 14,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 20.485715866088867
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 15,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 20.657142639160156
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 15,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 20.828571319580078
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 4,
+        "offset": 0,
+        "sectionID": 15,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 21.0
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 15,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 21.342857360839844
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 15,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 21.342857360839844
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 15,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 21.514286041259766
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 15,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 21.685714721679688
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 15,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 21.85714340209961
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 16,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 22.114286422729492
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 16,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 22.200000762939453
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 16,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 22.542858123779297
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 16,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 22.71428680419922
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 16,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 23.057144165039063
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 16,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 23.228572845458984
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 17,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 23.400001525878906
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 17,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 23.571430206298828
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 17,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 23.914287567138672
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 17,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 24.085716247558594
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 17,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 24.428573608398438
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 17,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 24.60000228881836
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 24.685714721679688
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 24.77142906188965
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 24.94285774230957
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 25.114286422729492
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 25.285715103149414
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 25.457143783569336
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 25.542858123779297
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 25.628572463989258
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 25.80000114440918
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 1,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 18,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 25.9714298248291
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 0,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 19,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 26.228572845458984
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 19,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 26.314287185668945
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 19,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 26.314287185668945
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 2,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 19,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 26.65714454650879
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 19,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 26.65714454650879
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 3,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 19,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 26.82857322692871
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 19,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 26.82857322692871
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 19,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 27.171430587768555
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 19,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 27.342859268188477
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 20,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 27.514286041259766
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 20,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 27.600000381469727
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 20,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 27.685714721679688
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 20,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 27.85714340209961
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 20,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 28.02857208251953
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 20,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 28.200000762939453
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 20,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 28.542858123779297
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 20,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 28.71428680419922
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 21,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 28.88571548461914
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 21,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 29.057144165039063
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 21,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 29.228572845458984
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 21,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 29.314287185668945
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 21,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 29.400001525878906
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 21,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 29.571430206298828
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 21,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 29.74285888671875
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 21,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 29.914287567138672
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 21,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 30.085716247558594
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 22,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 30.171428680419922
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 22,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 30.257143020629883
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 22,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 30.428571701049805
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 22,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 30.600000381469727
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 22,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 30.685714721679688
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 22,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 30.77142906188965
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 22,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 30.94285774230957
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 22,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 31.114286422729492
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 22,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 31.200000762939453
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 22,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 31.285715103149414
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 22,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 31.457143783569336
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 23,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 31.628572463989258
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 23,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 31.71428680419922
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 23,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 31.80000114440918
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 23,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 31.9714298248291
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 7,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 23,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 32.14285659790039
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 23,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 32.31428527832031
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 4,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 23,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 32.400001525878906
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 5,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 23,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 32.400001525878906
+    },
+    {
+        "BPM": 175.0,
+        "corridor": 6,
+        "length": 0,
+        "offset": 0,
+        "sectionID": 23,
+        "songPath": "assets/sound/Philly_Nice.mp3",
+        "timeToHit": 32.485713958740234
     }
 ]

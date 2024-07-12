@@ -30,6 +30,20 @@ public:
 		currentState,
 		2
 	);
+
+	MenuButton charter = MenuButton(
+		200,
+		200,
+		0.5,
+		"assets/images/options",
+		24,
+		true,
+		2,
+		"options basic0",
+		"options white0",
+		currentState,
+		3
+	);
 	
 
 

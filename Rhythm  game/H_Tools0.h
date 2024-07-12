@@ -102,13 +102,68 @@ public:
 };
 
 
-static class customTime {
+
+static class Tweens {
 public:
 
 
+    static float Tween(float start, float end, float speed) {
+
+        float dy = end - start;
+        
+
+        
+
+        return start + speed *dy;
+    }
+
+  static float Ease(float start, float end, float speed) {
+
+        float dy = end - start;
+        float Vy = dy * speed;
+
+        start += Vy;
+
+        return start;
+    }
 
 };
     
+
+class Tween {
+public:
+    float startValue;
+    float endValue;
+    float totalTime;
+    float currentTime;
+
+public:
+
+    Tween()
+    {
+
+    }
+
+    Tween(float start, float end, float time)
+        : startValue(start), endValue(end), totalTime(time), currentTime(0.0f) {
+    }
+
+    float update() {
+        currentTime += GetFrameTime();
+        if (currentTime >= totalTime) {
+            return endValue; // Tween completed
+        }
+        else {
+            // Calculate t (normalized time)
+            float t = currentTime / totalTime;
+
+            // Perform linear interpolation (lerp)
+            float currentValue = startValue + t * (endValue - startValue);
+
+            return currentValue;
+        }
+    }
+};
 
 
 
